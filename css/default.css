@@ -1757,7 +1757,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .AlegreyaSansSC18{ font-size: 20px !important;}
   .for-filter ul li{ font-size: 25px !important;}
   .hide-p{font-size: 20px !important;}
-  .container, .container-lg, .container-md, .container-sm, .container-xl{max-width:1500px ;}
+  .container, .container-lg, .container-md, .container-sm, .container-xl{max-width:1400px ;}
   .frame-img{width:420px;height: 270px;}
   .owl-prev span,.owl-next span{font-size: 20px !important;}
   .owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{top: 27%;}
@@ -2081,7 +2081,7 @@ text-align: center;width: 100%;
 }
 .tlt-events .tlt-concept, .tlt-hospitality .tlt-concept, .tlt-living .tlt-concept{padding: 0;}
 
-.img-for-logo{width: 100px;height: 55px;transition: .6s;cursor: pointer;}
+.img-for-logo{width: 80px;height: 55px;transition: .6s;cursor: pointer;}
 .img-for-logo:hover{opacity: .5;}
 .img-for-logo2{width: 210px;height: 50px;}
 .for-img-logo4{width: 350px;height: 50px;}
@@ -2137,10 +2137,10 @@ text-align: center;width: 100%;
    
     .container-96{width:80%}
     .for-filter ul li{font-size: 35px !important;}
-    .img-for-logo{width: 130px;height: 60px;}
+    .img-for-logo{width: 110px;height: 60px;}
   .img-for-logo2{width: 275px;height: 50px;}
-  .img-for-logo3{width: 175px;}
-  .for-img-logo4{width: 545px;height: 50px;}
+  .img-for-logo3{width: 165px;}
+  .for-img-logo4{width: 410px;height: 50px;}
   .img-for-logo5{width: 27px;}
   .box-text-about{
     position: absolute;left:50%;top: 50%;transform: translate(-50%,-50%);
@@ -2223,6 +2223,13 @@ text-align: center;width: 100%;
     margin: 0 auto;}
   }
   .for-sound{margin:50px 0 50px;padding-top: 30px;}
+  @media (min-width:1700px){
+    .for-img-logo4{width: 450px;}
+  }
+  @media (min-width:1800px){
+    .for-img-logo4{width: 480px;}
+  }
+  
 @media (min-width:1900px){
   .for-sound{margin:130px 0 50px;padding: 50px 0;}
   .more-detalis{margin: 100px auto 100px !important}
@@ -2259,7 +2266,7 @@ text-align: center;width: 100%;
  
   .container-96{width:80%}
   .for-filter ul li{font-size: 35px !important;}
-  .img-for-logo{width: 150px;height: 60px;}
+  .img-for-logo{width: 140px;height: 60px;}
 .img-for-logo2{width: 275px;height: 50px;}
 .img-for-logo3{width: 175px;}
 .for-img-logo4{width: 545px;height: 50px;}
@@ -2363,6 +2370,7 @@ text-align: center;width: 100%;
 .b-hos-5{background:url('../images/Logos-larg/PNG/Hospitality/The Quiet Cat.png') no-repeat center;background-size: contain;}
 .b-hos-6{background:url('../images/Logos-larg/PNG/Hospitality/Can\ Limon\ El\ Restaurante.png') no-repeat center;background-size: contain;}
 .b-hos-7{background:url('../images/Logos-larg/PNG/Hospitality/The Origins.png') no-repeat center;background-size: contain;}
+.b-hos-8{background:url('../images/Logos-larg/PNG/image001.png') no-repeat center;background-size: contain;}
 
 .branch-media-low{display: none;}
 @media(max-width:1199px){
@@ -2615,7 +2623,7 @@ text-align: center;width: 100%;
   
   .container-96{width:80%}
   .for-filter ul li{font-size: 35px !important;}
-  .img-for-logo{width: 150px;height: 60px;}
+  .img-for-logo{width: 140px;height: 60px;}
 .img-for-logo2{width: 275px;height: 50px;}
 .img-for-logo3{width: 175px;}
 .for-img-logo4{width: 545px;height: 50px;}
@@ -2763,6 +2771,7 @@ margin: 50px auto;
 .line-h-1{line-height: 1.2;}
 .site-row{margin-left: 3%;}
 @media (min-width:1900px){
+  .b-hos-8{height: 70px;}
   .site-row{margin-left: 10%;}
   .h-img-fit{height: 400px;}
   .sp-sort{margin-left: -1.3rem;}
