@@ -2771,7 +2771,7 @@ margin: 50px auto;
 .line-h-1{line-height: 1.2;}
 .site-row{margin-left: 3%;}
 @media (min-width:1900px){
-  .b-hos-8{height: 70px;}
+  
   .site-row{margin-left: 10%;}
   .h-img-fit{height: 400px;}
   .sp-sort{margin-left: -1.3rem;}
@@ -2863,13 +2863,13 @@ padding-inline-start: 3px;
   .img-for-logo2{width: 250px;}
   .for-img-logo4{width: 420px;}
 }
-.img-for-logo-11{position: absolute;    left: 18px;
-  top: -20px;
-  width: 100px;
+.img-for-logo-11{position: absolute;    left: 20px;
+  top: -15px;
+  width: 110px;
   height: 80px;}
   @media (min-width:1700px){
-    .img-for-logo-11{position: absolute;    left: 18px;
-      top: -20px;
-      width: 100px;
-      height: 95px;}
+    .img-for-logo-11{position: absolute;    left: 20px;
+      top: -15px;
+      width: 150px;
+      height: 80px;}
   }
