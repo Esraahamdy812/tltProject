@@ -356,10 +356,11 @@ main a, footer a {
 @media (max-width:767px){
   .mx-auto {
     position: absolute;
-    bottom: 5%;
-    left: 0%;
+    bottom: 4%;
+    right: 0%;
     width: 65px;
 }
+footer{margin-top: 1rem !important;}
 }
 @media (min-width:1500px){
   .mx-auto{width: 100px;bottom: 18%;}
@@ -924,10 +925,15 @@ nav {
   
   height: 200px;
 }
-
+.news-box{
+  object-fit: cover;
+  width: 80% !important;
+  margin: 0 auto
+}
 .fit-cover{
   object-fit: cover;
   width: 100% !important;
+  margin: 0 auto
 }
 .c-333{color: #121212 !important;}
 .c-555{color: #121212 !important;}

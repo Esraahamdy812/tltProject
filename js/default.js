@@ -1,23 +1,58 @@
 $(document).ready(function () {
-
-    $('.owl-carousel').owlCarousel({
+    $('.owl-2').owlCarousel({
         loop: true,
-        margin: 10,
+        margin: 0,
         nav: true,
-        navText : ["<span aria-label='Previous' aria-hidden='true'>PREV</span>","<span aria-label='Next' aria-hidden='true'>NEXT</span>"],
+        dots: true,
+        autoplay: true, // time for slides changes
+        autoplayTimeout:3000 ,
+        smartSpeed: 500, // duration of change of 1 slide
+    
+        responsiveClass:true,
+        navText : ["<span aria-label='Previous' aria-hidden='true'></span>","<span aria-label='Next' aria-hidden='true'></span>"],
         responsive: {
             0: {
                 items: 1
             },
             600: {
-                items: 3
+                items: 1
+            },
+            1000: {
+                items: 2
+            }
+        }
+    })
+
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 50,
+        nav: true,
+        dots: true,
+        autoplay: true, // time for slides changes
+        autoplayTimeout:3000 ,
+        smartSpeed: 500, // duration of change of 1 slide
+    
+        responsiveClass:true,
+        navText : ["<span aria-label='Previous' aria-hidden='true'></span>","<span aria-label='Next' aria-hidden='true'></span>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            767: {
+                items: 2
             },
             1000: {
                 items: 3
             }
         }
     })
+
+
 });
+
 // nav bar //
 $(window).scroll(function(){
     $('nav').toggleClass('scrolled',$(this).scrollTop()>500);

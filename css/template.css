@@ -6663,7 +6663,7 @@ body{position: relative;}
     width: 40px;
     margin: 0 auto !important;
 }
-.d-links-cons::before{width: 50px;left: 5px;}
+.d-links-cons::before{width: 65px;left:0px;}
 .navbar-2 .d-links::before{ background: #000;}
 .navbar-3 .d-links::before{ background: #000;}
 
@@ -6679,7 +6679,7 @@ body{position: relative;}
     .dropdown-menu{text-align: center;margin-left: -45px;margin-top: -40px;}
     .navbar-expand-lg .navbar-nav .nav-item{padding: 0 15px ;}
 }
-.d-menu:hover .d-links{display: block;margin-left: -23px !important;}
+.d-menu:hover .d-links{display: block;margin-left: -32px !important;}
 .d-menu:hover .d-links-2{margin-left: 10px !important;}
 .d-menu:hover .d-links-3{margin-left: 22px !important;}
 .navbar-toggler{background: #000;border: none;outline: none;padding-top: 15px;width:40px;height: 40px;margin-right: 20px;position: relative;}
@@ -6712,7 +6712,7 @@ body{position: relative;}
     .dropdown-menu{min-width: 0rem !important;}
     .d-menu:hover .d-links {
         display: block;
-        margin-left: -37px !important;
+        margin-left: -45px !important;
     }
     .d-menu:hover .d-links-2{margin-left: 7px !important;}
 .d-menu:hover .d-links-3{margin-left: 25px !important;}
@@ -6722,7 +6722,7 @@ body{position: relative;}
 @media (min-width:1700px){
     .d-menu:hover .d-links {
         display: block;
-        margin-left: -40px !important;
+        margin-left: -60px !important;
     }
     .d-menu:hover .d-links-2{margin-left: 8px !important;}
 .d-menu:hover .d-links-3{margin-left: 25px !important;}
@@ -6730,8 +6730,8 @@ body{position: relative;}
 
 }
 
-.for-arrow-up{transition:0s;font-size: 10px;position: absolute;top: -11px;right: 1px;transform: rotate(45deg);}
-.arrow-hover:hover .for-arrow-up,.arrow-h:hover .for-arrow-up{top: -13px;right: -1px;}
+.for-arrow-up{transition:0s;font-size: 10px;position: absolute;top: -9px;right: 1px;transform: rotate(45deg);}
+.arrow-hover:hover .for-arrow-up,.arrow-h:hover .for-arrow-up{top: -11px;right: -1px;}
 .for-arrow-up-2{transition:0s;font-size: 10px;position: absolute;top: -4px;right: -1px;transform: rotate(45deg);}
 .arrow-hover:hover .for-arrow-up-2,.arrow-h:hover .for-arrow-up-2{top: -6px;right: -3px;}
 @media (max-width :767px){
