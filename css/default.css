@@ -2917,3 +2917,15 @@ padding-inline-start: 3px;
       margin: 0 auto 20px;
   }
   }
+
+  /* added by me for forms */
+  #eventType{padding-right: 157px !important;}
+  #DESTINATION{padding-right: 154px !important;}
+  @media screen and (min-width:1500px)
+   {
+     #eventType,#DESTINATION{width:230px !important}
+    .register .resg-p input {  padding-right: 22rem !important;}
+  
+
+  }
+
