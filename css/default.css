@@ -357,9 +357,10 @@
   .tlt-events{padding: 20px 0;}
   @media (max-width:767px){
     .tlt-events ,.tlt-hospitality , .tlt-living{
-      padding: 100px 0 20px;
-      min-height: 50vh;
+      padding: 50px 0 ;
+      min-height: 40vh;
     }
+    
   }
   .tlt-hospitality {
     padding: 100px 0 0px;
@@ -974,8 +975,8 @@
 
 @media (max-width:767px){
 .all-services img{width: 80%;margin: 0 auto;}
-.all-services p{margin: 30px 0;text-align: center !important;}
-.all-services p{width: 100% !important;}
+
+.all-services p{width: 70% !important;margin: 20px auto !important;}
 .all-services h3{margin: 30px 0 30px;text-align: center !important;}
 }
 
@@ -1154,7 +1155,7 @@
     @media (max-width:767px){
       .tlt-events .tlt-concept p , .tlt-hospitality .tlt-concept p,.tlt-living .tlt-concept .b-living {
         width: 80% !important;font-size: 20px !important;
-        margin: 20px 0 !important
+        margin: -40px 0  !important
       }
       .about-tlt .tlt-concept p{
         margin: 20px auto !important;
@@ -1533,8 +1534,8 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .AlegreyaSansScMedium{font-family:'AlegreyaSansScMedium' !important;font-size: 16px !important; }
   .alLight17{ font-family: 'AlegreyaSans' !important;font-size: 16px ;}
   .main-logo{width: 80px;margin-top: 20px;}
-  .BigCaslon-35{font-family: 'Big Caslon'  !important;font-size:25px !important;font-weight: 100 !important;}
-  .Caslon-MediumItalic-35{font-family: 'Caslon MediumItalic' !important;font-size:25px !important}
+  .BigCaslon-35{font-family: 'Big Caslon'  !important;font-size:20px !important;font-weight: 100 !important;}
+  .Caslon-MediumItalic-35{font-family: 'Caslon MediumItalic' !important;font-size:20px !important}
   .header3-about .hero-arrow{
     margin:50px 0 0 !important
   }
@@ -2011,7 +2012,7 @@ text-align: center;width: 100%;
 .div-hei-50{height: 50vh;background: #F0EFEE;}
 @media (max-width:767px){
   .hos-text-sm{height:120vh !important}
-  .div-hei-50{min-height: 50vh;}
+  /* .div-hei-50{min-height: 50vh;} */
   .p-font{width:100%;margin: 5vh auto;}
   .box-section{height: 150vh !important;width: 90%;margin: 80px auto 20px}
   .box-section-767{height: 120vh !important;margin: 0px auto 20px}
@@ -2063,10 +2064,7 @@ text-align: center;width: 100%;
 .for-ev{margin-top: -100px !important}
 }
 .text-box-brands{position: absolute;left:50%;top: 26%;transform: translate(-50%,-50%);text-align: center;width: 45%;}
-@media (max-width:767px){
-  .text-box-brands{width: 90%;top: 50%}
-  .div-hei-50{position: relative;min-height: 50vh;}
-}
+
 
 .home-header{
   height:80vh
@@ -2834,10 +2832,14 @@ padding-inline-start: 3px;
 @media (max-width:767px){
   .navbar-expand-lg .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link{font-size: 18px !important;}
   .links-c a{font-size: 17px !important;}
-  .tlt-events .tlt-concept{height: 390px;}
+  .tlt-events .tlt-concept{height: 250px;}
+  .tlt-events .tlt-concept, .tlt-hospitality .tlt-concept , .tlt-living .tlt-concept {
+   
+    margin-bottom: 40px;
+  }
   .f-event-17{font-size: 17px !important;}
   .life-logo{height: 200px !important;}
-  .life-logo .life-img img{width: 150px!important;}
+  .life-logo .life-img img{width: 200px !important;}
   .for-m-services{margin-bottom: 0px;}
   .ex-sm{top: -2%;left: 28%;}
   .mt-gallery{margin-top:70px !important}
@@ -2909,6 +2911,8 @@ padding-inline-start: 3px;
     left: 10px;display:none !important
   }
   footer .content-2{display: none;}
+  .iconic-eve{font-weight: 100 !important;letter-spacing: 10px;margin: 100px 0 }
+  .life-f{margin:100px 0;}
   @media (max-width:767px){
     footer .content{display: none;}
     footer .content-2{display: block;}
@@ -2916,6 +2920,8 @@ padding-inline-start: 3px;
     .search img {
       margin: 0 auto 20px;
   }
+  .iconic-eve{font-weight: 100 !important;letter-spacing: 10px;margin: 30px 0 }
+  .life-f{margin:70px 0;}
   }
 
   /* added by me for forms */
@@ -2929,3 +2935,10 @@ padding-inline-start: 3px;
 
   }
 
+  @media (max-width:767px){
+    .text-box-brands{width: 90%;top: 53%}
+    .div-hei-50{position: relative;height: 40vh;}
+    .j-f-h{min-height: 20vh !important}
+    .event-lifetime .join-family{padding: 20px 0 20px !important;}
+    .for-mt{margin-top: .5rem !important;}
+  }

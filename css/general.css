@@ -356,7 +356,7 @@ main a, footer a {
 @media (max-width:767px){
   .mx-auto {
     position: absolute;
-    bottom: 4%;
+    bottom: 6.5%;
     right: 0%;
     width: 65px;
 }
@@ -494,6 +494,14 @@ footer{margin-top: 1rem !important;}
 }
 .mb-6 {
   margin-bottom: 6rem !important;
+}
+@media (max-width: 767px){
+  .mb-6 {
+    margin-bottom: 3rem !important;
+  }
+  .mt-6 {
+    margin-top: 3rem !important;
+  }
 }
 .mb-7 {
   margin-bottom: 7rem !important;
@@ -1524,6 +1532,7 @@ footer {
     min-height: 340rem !important;
   }
   .container-logos .canLimon-img img{width: 100px !important;}
+  .container-logos .living-logo img{width: 130px !important;}
   .container-logos .vola-img img{width: 100px !important;}
 }
 
