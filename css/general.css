@@ -2125,7 +2125,7 @@ footer {
 @media (max-width:767px){
   .coco_img_5{
     height: 22rem !important;
-    margin-top: 1rem;
+    margin-top: 13rem;
   }
   .coco_img_4{
     margin-top: 34rem !important;
@@ -2142,7 +2142,7 @@ footer {
  
    .coco_img_6{
     height: 16rem !important;
-   margin-top: 10rem !important;
+   margin-top: 14rem !important;
    background-size: 100% 100% ;
     }
   .coco_img_8{
@@ -2321,15 +2321,15 @@ footer {
     margin-top: 17rem !important;
   }
   .haci_img_5{
-    height: 13rem !important;
+    height: 17rem !important;
     margin-top: 1rem;
   }
   .haci_img_4{
     margin-top: 20rem !important;
   }
   .haci_img_2{
-    margin-top: 21rem;
-    height: 20rem !important;
+    margin-top: 1rem;
+    height: 40rem !important;
   }
   .for-bgImg2{
     height: 13rem !important;
@@ -2342,7 +2342,7 @@ footer {
    background-size: cover ;
     }
   .haci_img_8{
-  height:23rem !important;
+  height:38rem !important;
   }
   .gallery-rituals{
     min-height: 176rem !important;
@@ -2729,11 +2729,11 @@ footer {
 }
 @media (max-width:767px){
   .famFriends_img_5{
-    height: 34rem !important;
-    margin-top: 1rem;
+    height: 47rem !important;
+    margin-top: 21rem;
   }
   .famFriends_img_4{
-    margin-top: 27rem !important;
+    margin-top: 43.3rem !important;
     height: 34rem !important;
   }
   .famFriends_img_2{
@@ -2755,7 +2755,7 @@ footer {
   }
   
   .famFriends_img_7{
-  height:27rem !important;
+  height:17rem !important;
   }
   
   .gallery-rituals{
@@ -2953,7 +2953,7 @@ footer {
   }
   .sidihos_img_2{
     margin-top: 1rem;
-    height:16rem !important;
+    height:34rem !important;
   }
   .for-bgImg2{
     height: 13rem !important;
@@ -2962,7 +2962,7 @@ footer {
  
    .sidihos_img_6{
     height: 25rem !important;
-   margin-top: -8rem !important;
+   margin-top:10rem !important;
    background-size: cover ;
     }
     .sidihos_img_s1,.sidihos_img_s2,.sidihos_img_s3,.sidihos_img_s4{
@@ -3129,7 +3129,7 @@ footer {
   }
   .rituhos_img_2{
     margin-top: 1rem;
-    height:28rem !important;
+    height:46rem !important;
   }
   .for-bgImg2{
     height: 13rem !important;
@@ -3138,7 +3138,7 @@ footer {
  
    .rituhos_img_6{
     height: 25rem !important;
-   margin-top: 4rem !important;
+   margin-top: 22rem !important;
    background-size: cover ;
     }
   .rituhos_img_8{
@@ -3173,6 +3173,7 @@ footer {
 @media screen and (max-width:767px) {
   .sidihos_img_s2{
     margin-top: -0.4rem !important;
+   
 
   }
   .sidihos_img_s3{
@@ -3187,4 +3188,20 @@ footer {
   .sidihos_img_s7{margin-top: 1.2rem !important;}
   .rituhos_img_9 { margin-top: 1rem !important;}
   .haci_img_h1 {margin-top: 16rem !important;}
+  .haci_img_4{height: 34rem !important;margin-top: 50.4rem !important;}
+  .haci_img_7{height:34rem !important;}
+  .haci_img_1{height: 37rem !important;}
+  .rituhos_img_3 {height: 30rem !important;}
+  .rituhos_img_1 {height: 39rem !important;}
+  .rituhos_img_5 {margin-top: 4rem !important;}
+  .rituhos_img_4 {height: 39rem !important; margin-top: 54.3rem !important;}
+  .rituhos_img_7 {height: 36rem !important;}
+  .coco_img_2 {height: 38rem !important;}
+  .coco_img_3 {height: 39rem !important;}
+  .famFriends_img_3 {height: 47rem !important;}
+  .famFriends_img_1 {height: 47rem !important;}
+  
+
+
+
 }
