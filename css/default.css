@@ -780,7 +780,8 @@
   .register .resg-in input{
     margin-left: 0 !important;
     padding-right: 70px !important;
-    width: 225px;
+    width:14rem;
+    
   }
   .reservation{margin: 100px auto;}
   .reservation p{width: 80%;}
@@ -2941,4 +2942,10 @@ padding-inline-start: 3px;
     .j-f-h{min-height: 20vh !important}
     .event-lifetime .join-family{padding: 20px 0 20px !important;}
     .for-mt{margin-top: .5rem !important;}
+    /* added  */
+    /* .messagenone{
+      display: block !important;
+      margin-left: 3.937rem !important;
+      padding-right: 70px !important;}
+    .resg-p{display: none;} */
   }
