@@ -780,7 +780,7 @@
   .register .resg-in input{
     margin-left: 0 !important;
     padding-right: 70px !important;
-    width:12rem;
+    width:225px;
     
   }
   .reservation{margin: 100px auto;}
@@ -2943,4 +2943,12 @@ padding-inline-start: 3px;
     .event-lifetime .join-family{padding: 20px 0 20px !important;}
     .for-mt{margin-top: .5rem !important;}
    
+  }
+  @media (min-width:413px) and (max-width:452px){
+    .register .resg-in input{
+      margin-left: 0 !important;
+      padding-right: 70px !important;
+      width:10rem;
+      
+    }
   }
