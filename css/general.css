@@ -356,7 +356,7 @@ main a, footer a {
 @media (max-width:767px){
   .mx-auto {
     position: absolute;
-    bottom: 6.5%;
+    bottom: 4%;
     right: 0%;
     width: 65px;
 }

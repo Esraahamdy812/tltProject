@@ -6738,3 +6738,7 @@ body{position: relative;}
     .for-arrow-up-2{transition:0s;font-size: 10px;position: absolute;top: -4px;right: -1px;transform: rotate(45deg);}
 
 }
+@media (min-width :768px){
+    .for-arrow-up{transition:0s;font-size: 10px;position: absolute;top: -11px;right: 1px;transform: rotate(45deg);}
+    .arrow-hover:hover .for-arrow-up,.arrow-h:hover .for-arrow-up{top: -13px;right: -1px;}
+}

@@ -2114,7 +2114,8 @@ text-align: center;width: 100%;
 .img-bo2{width: 513px;height: 513px;}
 .img-life{width: 100%;height: 90vh;}
 .p-1920{padding-bottom: 15px;}
-.logos-width{width: 180px}
+.logos-width{width: 180px;}
+.hei-2{height: 100px;}
 .logos-width2{width: 120px}
 .con-my{margin: 1rem 0;}
 .career-top{margin-top: 50px;}
@@ -2926,7 +2927,7 @@ padding-inline-start: 3px;
   }
 
   /* added by me for forms */
-  #eventType{padding-right: 157px !important;}
+  #eventType{padding-right: 160px !important;}
   #DESTINATION{padding-right: 154px !important;}
   @media screen and (min-width:1500px)
    {
@@ -2935,20 +2936,141 @@ padding-inline-start: 3px;
   
 
   }
-
+  .in-message-2{display: none;}
+  .box-concepts{width: 50%;}
+  .dad-concepts{min-height: 50vh;}
+  #DESTINATION{visibility: hidden;}
   @media (max-width:767px){
     .text-box-brands{width: 90%;top: 53%}
     .div-hei-50{position: relative;height: 40vh;}
     .j-f-h{min-height: 20vh !important}
     .event-lifetime .join-family{padding: 20px 0 20px !important;}
     .for-mt{margin-top: .5rem !important;}
-   
+   .in-message{display: none;}
+   .in-message-2{display: block;}
+   .box-concepts{width: 90%;}
+   .dad-concepts{min-height: 40vh;}
+   #DESTINATION{display:none;}
   }
-  @media (min-width:413px) and (max-width:452px){
+  /* @media (min-width:413px) and (max-width:452px){
     .register .resg-in input{
       margin-left: 0 !important;
       padding-right: 70px !important;
       width:10rem;
       
     }
+  } */
+
+  /* error submit */
+  #snackbar {
+    visibility: hidden; /* Hidden by default. Visible on click */
+    min-width: 250px; /* Set a default minimum width */
+    margin-left: -125px; /* Divide value of min-width by 2 */
+    background: #CC0B08;
+    background: -webkit-linear-gradient(top left, #CC0B08, #000000);
+    background: -moz-linear-gradient(top left, #CC0B08, #000000);
+    background: linear-gradient(to bottom right, #CC0B08, #000000);
+    color: #fff; /* White text color */
+    text-align: center; /* Centered text */
+    border-radius: 2px; /* Rounded borders */
+    padding: 16px; /* Padding */
+    position: fixed; /* Sit on top of the screen */
+    z-index: 1; /* Add a z-index if needed */
+    left: 150px; /* Center the snackbar */
+    bottom: 30%; /* 30px from the bottom */
+    font-size: 20px;
+    font-family: 'AlegreyaSansSC'  !important;
+   
+    border-left:8px solid #3b0b0a !important;
+    box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.911);
+    
+  }
+
+  
+  /* Show the snackbar when clicking on a button (class added with JavaScript) */
+  #snackbar.show {
+    visibility: visible; /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  
+  /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {left: 0; opacity: 0;}
+    to {left: 150px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {left: 0; opacity: 0;}
+    to {left: 150px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {left: 150px; opacity: 1;}
+    to {left: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {left: 130px; opacity: 1;}
+    to {left: 0; opacity: 0;}
+  }
+
+  @media (max-width: 767px){
+    #snackbar {
+    left:50%;
+    bottom:50px
+    }
+      /* Animations to fade the snackbar in and out */
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 50px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 50px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  }
+
+  @media screen and (max-width:767px){
+    input[type="time"]{height: 2rem;}
+    /* input[type="time"]::-webkit-calendar-picker-indicator {
+    background:url(../images/aboutPage.png)
+
+  }
+  input[type="time"]::-moz-calendar-picker-indicator {
+    background:url(../images/aboutPage.png)
+} */
+   }
+
+  .flex-container {display:flex;}
+  .flex-container > div {     
+    margin: 10px 10px 20px;
+    font-size: 30px;}
+  .flex-container-2 > div {margin: 8px;
+    font-size: 30px;}
+  .f-app{margin: 5px !important;}
+  .content-3{display: none;}
+  @media (max-width:767px){
+    .content-3{display: block;}
+  }
+  @media (min-width:450px){
+    .flex-container > div {     
+      margin: 10px 30px 20px;}
+      .f-app{margin: 5px 30px!important;}
+      .mx-auto {
+        position: absolute;
+        bottom: 4%;right: 20%;}
   }
