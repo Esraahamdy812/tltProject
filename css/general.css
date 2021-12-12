@@ -1194,7 +1194,7 @@ footer {
       width: 90px !important;
     }
     .brands-logo{height:270px !important}
-    .brands-logo-hos{height:350px !important}
+    .brands-logo-hos{height:390px !important}
   }
  
   .for-hover img{transition: .5s;}
@@ -1532,7 +1532,7 @@ footer {
     min-height: 340rem !important;
   }
   .container-logos .canLimon-img img{width: 100px !important;}
-  .container-logos .living-logo img{width: 130px !important;}
+  .container-logos .living-logo img,.container-logos .hos-logos img{width: 130px !important;}
   .container-logos .vola-img img{width: 100px !important;}
 }
 
