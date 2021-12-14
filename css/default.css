@@ -710,6 +710,7 @@
 .submit-event-request p{width: 515px;margin: auto;}
 .register input,.register label {
   background-color:transparent !important;
+ 
   border: none;
   border-bottom: 2px solid #ddd;
   margin-bottom: 30px;
@@ -719,6 +720,11 @@
  
   color: #121212;
  
+}
+@media (max-width:767px){
+  .register input,.register label {
+    width: 55%;
+  }
 }
 .register label{text-align: left; font-family:'GillSans-Light' !important;
   font-size: 12px !important;
@@ -779,8 +785,8 @@
   .register input {margin-left: 0 !important;}
   .register .resg-in input{
     margin-left: 0 !important;
-    padding-right: 70px !important;
-    width:225px;
+ 
+   width: 55%;
     
   }
   .reservation{margin: 100px auto;}
@@ -2943,6 +2949,22 @@ padding-inline-start: 3px;
   .dad-concepts{min-height: 50vh;}
   #DESTINATION{visibility: hidden;}
   .for-fa-time{display: none;}
+  .social-title{margin-top: 4rem;margin-bottom: 1rem;font-size: 35px !important;}
+  .social-title-hide{margin-top: 3rem;margin-bottom: 3rem}
+  .social-title-hide2{display: none;}
+  @media (min-width:1500px){
+    .social-title-hide{margin-top: 5rem;margin-bottom: 3rem}
+  }
+  @media (min-width:1700px){
+    .social-title{margin-bottom: 2rem}
+    .social-title-hide{margin-top: 5rem;margin-bottom: 5rem}
+  }
+ 
+  @media (max-width:767px){
+    .social-title{margin-bottom: 0rem;font-size: 25px !important;}
+    .social-title-hide{display: none;}
+    .social-title-hide2{display: block;width: 100%;margin-bottom: 1rem;}
+  }
   @media (max-width:767px){
     .for-fa-time{display: inline-block;position: absolute;left:60%;color: #B5B5B5;font-size: 20px;}
     .text-box-brands{width: 90%;top: 53%}
