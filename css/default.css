@@ -3099,4 +3099,22 @@ padding-inline-start: 3px;
         position: absolute;
         bottom: 4%;right: 20%;}
   }
-
+/* added by me */
+@media (max-width: 991px)
+ {
+  .nav-pills{
+    flex-direction: row;
+  }
+  
+}
+@media (min-width: 1600px) and (max-width:1899px){
+.card-img-top {
+    width: 350px;
+    height: 224px;
+}
+}
+@media (min-width:1900px){
+  .card-img-top,.card-img-top2  {
+height: 300px !important;
+  }
+}
