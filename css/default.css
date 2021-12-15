@@ -800,12 +800,7 @@
   /* text-indent: 10px; */
 }
 .for-date{padding-right: 100px !important;}
-@media (max-width:767px){
-  .register .resg-p input{padding-right: 70px !important;
-    /* text-indent: 10px; */
-  }
-  #eventType, #DESTINATION{margin-left: 0 !important;}
-}
+
 /* -- page contact --*/
 
 /*start page event portifolio css */
@@ -2941,8 +2936,12 @@ padding-inline-start: 3px;
    {
      #eventType,#DESTINATION{width:230px !important}
     .register .resg-p input {  padding-right: 22rem !important;}
-  
-
+  }
+  @media (max-width:767px){
+    .register .resg-p input{padding-right: 70px !important;
+      /* text-indent: 10px; */
+    }
+    #eventType, #DESTINATION{margin-left: 0 !important;width: 55%;padding-right: 0 !important;padding-bottom: 3px;}
   }
   .in-message-2{display: none;}
   .box-concepts{width: 50%;}
