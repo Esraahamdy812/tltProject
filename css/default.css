@@ -3104,6 +3104,7 @@ padding-inline-start: 3px;
  {
   .nav-pills{
     flex-direction: row;
+    flex-wrap: nowrap;
   }
   
 }
