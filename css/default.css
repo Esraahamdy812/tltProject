@@ -815,8 +815,8 @@
   padding: 12px;line-height: 5px;
   transition: all .5s;cursor: pointer;
 }
-.search ul li:hover{color: #fff;background-color: #201825;}
-.search ul li:first-of-type{color: #fff;background-color: #201825;}
+
+
 .new-season{margin: 60px 0;}
 .new-season .card{border: none;margin-bottom: 23px;}
 .new-season .card-title{margin-bottom: 15px !important;}
