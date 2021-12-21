@@ -3119,3 +3119,15 @@ padding-inline-start: 3px;
 height: 300px !important;
   }
 }
+/* added for input gotopage portfolio */
+#goToInput{
+border: 1px solid transparent;
+text-align: end;
+font-size: 14px !important;
+background: transparent;
+outline-color: #f8f7f7;
+
+}
+.gotopage {
+  padding:  10px 13px !important;
+}
