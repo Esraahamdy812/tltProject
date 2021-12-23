@@ -753,7 +753,7 @@
 .register .resg-in input{
   padding: 0 !important;
   margin-left: 0 !important;
-  margin-left: 50px !important;
+  margin-left: 48px !important;
 }
 .register input::placeholder{
   font-family:'GillSans-Light' !important;
