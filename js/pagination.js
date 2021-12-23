@@ -48,6 +48,7 @@ function filter_items(type){
 // let fillter_corporate = document.getElementById('corporate');
 let list_element = document.getElementById('list');
 let pagination_element = document.getElementById('pagination');
+let pagination2 = document.getElementById('pagination2');
 let currentPage = 1;
 let rows = 8;
 var htmlOutput = '';	
@@ -92,11 +93,17 @@ function SetUpPagination(items,wrapper,rows_per_page){
         wrapper.appendChild(btn);
         
     }
+
+    var button_input = document.getElementById('goToInput');
+    button_input.value = 1;
+    button_input.max = page_count ;
+  
     
 }
 function paginationButton(page, items){
     let button = document.createElement('button');
     button.innerText = page;
+    button.id = "pagination_button_" + page ;
     if(currentPage == page) button.classList.add('active');
     button.addEventListener('click', function(){
         currentPage = page;
@@ -104,11 +111,30 @@ function paginationButton(page, items){
         let current_btn = document.querySelector('.pageNumber button.active');
         current_btn.classList.remove('active');
         button.classList.add('active');
+        let input_value = document.getElementById("goToInput");
+        input_value.value = page;
         
     });
+   
     return button; 
 }
 
+function paginationInput(){
+    let last_input = document.querySelector('.pageNumber button.active');
+    last_input.classList.remove('active');
+    let input_value = document.getElementById("goToInput").value;
+    
+        let current_input = document.getElementById("pagination_button_" + input_value);
+        
+        current_input.classList.add('active');
+
+        
+            currentPage = input_value;
+            DisplayList(all_items, list_element, rows ,currentPage); 
+           
+ 
+}
+// document.getElementById('goToInput').addEventListener('input',paginationInput(),false);
 DisplayList(list_items,list_element,rows,currentPage);
 SetUpPagination(list_items,pagination_element,rows);
 

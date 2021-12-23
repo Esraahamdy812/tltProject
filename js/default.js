@@ -104,19 +104,3 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
-//added to gotopage input portfolio
-var gotToInput = document.getElementById("goToInput");
-gotToInput.addEventListener('change', checkForValueOfInput);
-function checkForValueOfInput(){
-if(gotToInput.value == '1')
-{
-    console.log("hey 1");
-}
-else if(gotToInput.value == '2'){
-    console.log("hey '2' ");
-}else if(gotToInput.value == '3'){
-    console.log("hey '3'");
-}
-}
-
-    

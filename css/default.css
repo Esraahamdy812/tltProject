@@ -796,7 +796,7 @@
   .career-content .text-box{padding: 0 20px;}
   
 }
-.register .resg-p input{padding-right: 356px !important;
+.register .resg-p input{padding-right: 350px !important;
   /* text-indent: 10px; */
 }
 .for-date{padding-right: 100px !important;}
@@ -972,7 +972,7 @@
 }
 .all-services h3{margin: 30px 0 20px;text-align: left;}
 .all-services h3 a{color: #555 ;font-weight:500;}
-.all-services p{width: 80%;text-align: left;}
+.all-services p{width: 85%;text-align: left;}
 
 
 @media (max-width:767px){
@@ -1753,7 +1753,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .to-time.active{display: block;}
   .pop-up{display: none;}
 }
-.all-services .content-box img{width:300px !important;}
+.all-services .content-box img{width:320px !important;}
 .navbar-expand-lg .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link{
   font-size:13px !important;
 }
@@ -2930,7 +2930,7 @@ padding-inline-start: 3px;
   }
 
   /* added by me for forms */
-  #eventType{padding-right: 160px !important;}
+  #eventType{padding-right: 154px !important;}
   #DESTINATION{padding-right: 154px !important;}
   @media screen and (min-width:1500px)
    {

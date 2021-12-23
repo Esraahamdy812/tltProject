@@ -206,8 +206,9 @@
                 <i class="fa fa-angle-right"></i>
                 <span class="gotopage GillSansLight11">
                     <span class="goto">go&nbsp;to&nbsp;page</span>
-                    <input type="number" id="goToInput" placeholder="1" max="3" min="1">
+                    <input type="number" id="goToInput"  min="1" onkeydown="return false" onchange="paginationInput()" >
                 </span>
+                
             </div>
         </section>
         <style>
@@ -216,7 +217,7 @@
                     width: 80% !important;
                     margin: 0 auto !important;
                 }
-            }
+              }
 
             .pageNumber {
                 /* display: flex;
