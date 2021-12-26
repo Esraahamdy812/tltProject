@@ -360,6 +360,10 @@
       padding: 50px 0 ;
       min-height: 40vh;
     }
+    .tlt-events {
+      padding: 50px 0 0px;
+     
+    }
     
   }
   .tlt-hospitality {
@@ -1604,7 +1608,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
     margin-top: 2rem !important;
   }
   .mt-services{
-    margin-bottom: 3rem !important;
+    margin-bottom: 2rem !important;
     margin-top: 0rem !important;
   }
   .margin-l-4 {
@@ -1759,7 +1763,8 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
 }
 .hide-p{font-size: 15px !important;width:52%;margin: 0 auto;text-align: center;}
 @media (min-width:1500px) {
-
+  .card-img-top{height: 300px;}
+  .card-img-top2{height: 280px;}
   
   .navbar .container{max-width:1750px !important}
   .main-logo{width: 110px !important;}
@@ -1853,6 +1858,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .GillSans-Light16{font-size: 23px !important;}
   .event-lifetime .join-family p{font-size: 19px !important;}
   .new-season .card-body p{width: 350px !important;}
+  .m-1500{margin: 0 15px;}
   .to-explore{top: -10%;left: 46%;}
   .BigCaslon-30{font-size: 30px !important;}
   .register input::placeholder{font-size: 14px !important;letter-spacing: 2px;}
@@ -2022,8 +2028,10 @@ text-align: center;width: 100%;
   .box-section-767{height: 120vh !important;margin: 0px auto 20px}
   .box-section-cocon{height: 170vh !important;margin: 170px auto 20px}
   .box-section-info{position: relative;overflow: hidden;
+    
     /* margin-bottom: 50px;*/
   } 
+  .brands-text-life{height: 87vh !important;}
  
 }
 .imgbox-w-h{width: 100%;height: 90%;}
@@ -2219,8 +2227,8 @@ text-align: center;width: 100%;
     color: #000;font-family: 'Big Caslon'  !important;
     font-size:35px !important;
   }
-  .card-img-top{width: 350px;height: 400px;}
-  .card-img-top2{width: 350px;height: 230px;}
+  .card-img-top{width: 350px;height: 400px !important;}
+  .card-img-top2{width: 350px;height: 300px;}
   .latest-news {
     
     margin: -20px 0 25px;
@@ -2729,7 +2737,7 @@ text-align: center;width: 100%;
 .ex-img{position: relative;}
 .ex-img .explor-news{
   color: #fff;position: absolute;
-  bottom: -50px;left: 40%;font-size: 16px;
+  bottom: -50px;left: 36%;font-size: 16px;
  transition: .5s;letter-spacing: 1.5px;
 }
 .ex-img:hover .explor-news{bottom: 20px;}
@@ -2789,7 +2797,7 @@ margin: 50px auto;
 @media (min-width:1900px){
   
   .site-row{margin-left: 10%;}
-  .h-img-fit{height: 400px;}
+  .h-img-fit{height: 450px;}
   .sp-sort{margin-left: -1.3rem;}
   .latest-link{margin-right: 44px;}
   .sort-news::after{
@@ -2926,7 +2934,7 @@ padding-inline-start: 3px;
       margin: 0 auto 20px;
   }
   .iconic-eve{font-weight: 100 !important;letter-spacing: 10px;margin: 30px 0 }
-  .life-f{margin:70px 0;}
+  .life-f{margin:70px 0 30px;}
   }
 
   /* added by me for forms */
@@ -3118,6 +3126,9 @@ padding-inline-start: 3px;
   .card-img-top,.card-img-top2  {
 height: 300px !important;
   }
+  .card-img-top  {
+    height: 350px !important;
+      }
 }
 /* added for input gotopage portfolio */
 #goToInput{
@@ -3130,4 +3141,15 @@ outline-color: #f8f7f7;
 }
 .gotopage {
   padding:  10px 13px !important;
+}
+
+@media(max-width:767px) and (min-height:600px) and (max-height:844px){
+  .hm-logo{margin: 40px 0 10px !important;}
+  
+  .brands-text-5{height: 90vh;}
+}
+@media(max-width:767px) and (min-height:700px) and (max-height:844px){
+  .hm-logo{margin: 40px 0 10px !important;}
+  
+  .brands-text-5{height: 85vh;}
 }
