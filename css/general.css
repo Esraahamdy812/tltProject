@@ -3161,6 +3161,7 @@ footer {
 .head-gallery-img{width: 100px;}
 @media (max-width:767px){
   .head-gallery-img{width: 70px;}
+  .head-gallery-canlimon{width: 120px;}
 } 
 /* @media (min-width:1600px){
   .head-gallery-img{width: 150px;}
@@ -3221,11 +3222,11 @@ footer {
   background-size: cover;
 }
 .canLimon_img_7{
-  background-image: url(../images/gallary/lifeStyle/img\ \(4\).jpg );
-  background-size: 100% 100%;
+  background-image: url(../images/gallary/lifeStyle/img\ \(5\).jpg );
+  background-size: cover;
 }
 .canLimon_img_8{
-  background-image: url(../images/gallary/lifeStyle/img\ \(5\).jpg);
+  background-image: url(../images/gallary/lifeStyle/img\ \(4\).jpg);
   background-size: cover;
 }
 .canLimon_img_1{
@@ -3234,9 +3235,9 @@ footer {
   background-size: cover;
 }
 .canLimon_img_5{
-  background-image: url(../images/gallary/lifeStyle/img\ \(7\).jpg );
+  background-image: url(../images/gallary/lifeStyle/img\ \(9\).jpg );
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
 }
 .canLimon_img_6{
   background-image: url(../images/gallary/lifeStyle/img\ \(8\).jpg);
@@ -3247,7 +3248,7 @@ footer {
   
 }
 .canLimon_img_9{
-  background-image: url(../images/gallary/lifeStyle/img\ \(9\).jpg);
+  background-image: url(../images/gallary/lifeStyle/img\ \(7\).jpg);
   background-size: cover;
   height: 80vh;
   background-position: center;
