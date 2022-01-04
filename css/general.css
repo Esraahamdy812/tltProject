@@ -1529,7 +1529,7 @@ footer {
   height:23rem !important;
   }
   .gallery-rituals{
-    min-height: 340rem !important;
+    min-height: 100% !important;
   }
   .container-logos .canLimon-img img{width: 100px !important;}
   .container-logos .living-logo img,.container-logos .hos-logos img{width: 130px !important;}
@@ -1681,7 +1681,7 @@ footer {
   height:23rem !important;
   }
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
 
@@ -1837,7 +1837,7 @@ footer {
   height:23rem !important;
   }
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
  /*--------- katamya gallery  hospitality --------*/
@@ -1993,7 +1993,7 @@ footer {
   }
   
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
   
 }
@@ -2154,7 +2154,7 @@ footer {
   }
   
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
 /* //// villa coconut gallery */
@@ -2345,7 +2345,7 @@ footer {
   height:30rem !important;
   }
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
 /* ///// hacienda gallery style */
@@ -2603,7 +2603,7 @@ footer {
   }
   
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
 /* ////// boutique gallery end */
@@ -2759,7 +2759,7 @@ footer {
   }
   
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
 /* //// family_friends gallery end */
@@ -2979,7 +2979,7 @@ footer {
   }
   
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
 
@@ -3129,7 +3129,7 @@ footer {
   }
   .rituhos_img_2{
     margin-top: 1rem;
-    height:46rem !important;
+    height:30rem !important;
   }
   .for-bgImg2{
     height: 13rem !important;
@@ -3138,7 +3138,7 @@ footer {
  
    .rituhos_img_6{
     height: 25rem !important;
-   margin-top: 22rem !important;
+   margin-top: 6rem !important;
    background-size: cover ;
     }
   .rituhos_img_8{
@@ -3154,7 +3154,7 @@ footer {
   }
   
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
 /* //// rituals hospitality gallery end */
@@ -3378,6 +3378,6 @@ footer {
   }
   
   .gallery-rituals{
-    min-height: 176rem !important;
+    min-height: 100% !important;
   }
 }
