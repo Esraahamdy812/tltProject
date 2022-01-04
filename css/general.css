@@ -3205,3 +3205,178 @@ footer {
 
 
 }
+
+
+/* Can Limon  gallery start */
+.canLimon_img_3{
+  background-image: url(../images/gallary/lifeStyle/img\ \(1\).jpg );
+  background-size: 100% 100%;
+}
+.canLimon_img_2{
+  background-image: url(../images/gallary/lifeStyle/img\ \(2\).jpg);
+  background-size: 100% 100%;
+}
+.canLimon_img_4{
+  background-image: url(../images/gallary/lifeStyle/img\ \(3\).jpg);
+  background-size: cover;
+}
+.canLimon_img_7{
+  background-image: url(../images/gallary/lifeStyle/img\ \(4\).jpg );
+  background-size: 100% 100%;
+}
+.canLimon_img_8{
+  background-image: url(../images/gallary/lifeStyle/img\ \(5\).jpg);
+  background-size: cover;
+}
+.canLimon_img_1{
+  background-image: url(../images/gallary/lifeStyle/img\ \(6\).jpg );
+  background-position: center;
+  background-size: cover;
+}
+.canLimon_img_5{
+  background-image: url(../images/gallary/lifeStyle/img\ \(7\).jpg );
+  background-size: cover;
+  background-position: bottom;
+}
+.canLimon_img_6{
+  background-image: url(../images/gallary/lifeStyle/img\ \(8\).jpg);
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+  
+  
+}
+.canLimon_img_9{
+  background-image: url(../images/gallary/lifeStyle/img\ \(9\).jpg);
+  background-size: cover;
+  height: 80vh;
+  background-position: center;
+}
+
+@media screen and (min-width:1900px){
+  .for-bgImg1{
+    min-height: 40rem !important;
+    padding: 0px;
+  }
+  .for-height-col2{
+    min-height: 44rem !important;
+  }
+  .canLimon_img_7{
+   height: 36.7rem !important;
+  }
+  .canLimon_img_8{
+    height: 45rem !important;
+  }
+  .canLimon_img_2 ,.canLimon_img_4{
+    height: 26.5rem !important;
+    margin-top: 1rem ;
+  }
+  .canLimon_img_4{
+    margin-right: 0.5rem;
+  }
+  .for-height-col{
+    min-height: 31.7rem !important;
+    padding: 0px;
+  }
+  .canLimon_img_6{
+    margin-top: 1rem !important;
+    margin-right: 1rem;
+  }
+  .row6{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+  }
+  
+  .for-height-col2{
+    min-height: 52rem !important;
+    padding: 0px;
+  }
+  
+  .for-mrgn-col{
+    margin-top: -5rem;
+  }
+  .myrow{
+    margin-right: 0px;
+  }
+  
+}
+@media screen and (min-width:1600px) and (max-width:1899px){
+  .for-height-col{
+    padding: 0px;
+  }
+  .for-bgImg1{
+    min-height:37rem !important;
+    padding: 0px;
+  }
+.canLimon_img_4, .canLimon_img_2{
+  min-height: 20rem !important;
+}
+.canLimon_img_4{
+  margin-right: .5rem;
+}
+.canLimon_img_1{
+  min-height: 28rem !important;
+}
+.canLimon_img_7{
+  min-height: 29rem !important;
+}
+.for-mrgn-col{
+  margin-top: 1rem ;
+}
+.for-height-col2{
+  padding: 0px !important;
+}
+
+.canLimon_img_8{
+  margin-top: 2rem !important;
+}
+.canLimon_img_5{
+  height: 19rem !important;
+}
+.canLimon_img_6{
+  margin-right: 1rem;
+}
+.row6{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+}
+@media (max-width:767px){
+  .canLimon_img_5{
+    height: 34rem !important;
+    margin-top: 1rem;
+  }
+  .canLimon_img_4{
+    margin-top: 27rem !important;
+    height: 34rem !important;
+  }
+  .canLimon_img_2{
+    margin-top: 1rem;
+    height:46rem !important;
+  }
+  .for-bgImg2{
+    height: 13rem !important;
+   margin-bottom: 13rem;
+  }
+ 
+   .canLimon_img_6{
+    height: 25rem !important;
+   margin-top: 22rem !important;
+   background-size: cover ;
+    }
+  .canLimon_img_8{
+  height:34rem !important;
+  }
+  
+  .canLimon_img_7{
+  height:27rem !important;
+  }
+  .canLimon_img_9{
+    height: 25rem !important;
+   margin-top: 4rem !important;
+  }
+  
+  .gallery-rituals{
+    min-height: 176rem !important;
+  }
+}
