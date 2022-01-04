@@ -1293,10 +1293,10 @@
     }
    
     .timeline ul li .content{
-      margin-left: 50px; margin-top: 60px;
+      margin-left: 50px; margin-top: 100px;
     }
     .timeline ul li .content-1{
-      margin-left: 50px; margin-top: 60px;
+      margin-left: 50px; margin-top: 100px;
     }
     .timeline ul li h4{
       margin-bottom: 30px;
@@ -1705,7 +1705,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
     
   width: 100vw
   }
-  .h-pop-90{height: 88vh;}
+
   .fade-h-95{height: 80vh;}
   .timeline .container{
     max-width: 1700px;
@@ -1718,7 +1718,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
     
   width: 100vw
   }
-  .h-pop-90{height: 88vh;}
+  .h-pop-90{height: 77vh;}
   .fade-h-95{height: 80vh;}
   .timeline .container{
     max-width: 1700px;
@@ -2135,7 +2135,14 @@ text-align: center;width: 100%;
 .hos-t-x{    width: 80%;
   margin: 0 auto;}
   @media (min-width:1600px){
-    
+    .timeline ul li .content {
+      margin-left: 100px;
+      margin-top: 200px;
+  }
+  .timeline ul li .content-1 {
+    margin-left: 100px;
+    margin-top: 200px;
+}
     .contact-b {
       width: 35%;}
       .contact{margin-bottom: 150px;}
