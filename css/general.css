@@ -2644,6 +2644,11 @@ footer {
   height: 35rem;
 }
 @media screen and (min-width:1900px){
+  .famFriends_img_2{
+  
+    background-size: cover;
+    background-position: center;
+  }
   .for-bgImg1{
     min-height: 40rem !important;
     padding: 0px;
@@ -3031,6 +3036,8 @@ footer {
 }
 
 @media screen and (min-width:1900px){
+  .coco_img_4 {background-size: cover;}
+  .sidihos_img_2{background-size: cover;}
   .for-bgImg1{
     min-height: 40rem !important;
     padding: 0px;
@@ -3296,8 +3303,37 @@ footer {
   height: 80vh;
   background-position: center;
 }
-
+/* for minimum height in very larg screens start */
+@media screen and (max-width:2300px) and (min-width:1900px) {
+  .gallery-canLimon{
+    min-height:232rem  ;
+  }
+}
+@media screen and (max-width:2500px) and (min-width:2301px) {
+  .gallery-canLimon{
+    min-height:235rem  ;
+  }
+}
+@media screen and (min-width:2501px) {
+  .gallery-canLimon{
+    min-height:245rem  ;
+  }
+}
+/* for minimum height in very larg screens end */
 @media screen and (min-width:1900px){
+  .canLimon_img_3{height: 42rem !important;}
+  .canLimon_img_2{
+    background-size: cover;
+    background-position: center;
+  }
+  .for-bgImg2{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .col-padding-zero{
+    padding-right: 0px !important;
+  }
+  .canLimon_can_7 ,.canLimon_can_6,.canLimon_can_8{margin-top: 15rem;}
   .canLimon_can_2{height: 45rem !important;}
   .for-bgImg1{
     min-height: 40rem !important;
@@ -3454,8 +3490,8 @@ footer {
    margin-top: 1rem !important;
   }
   
-  .gallery-rituals{
-    min-height: 100% !important;
+  .gallery-canLimon{
+    min-height: 100% !important ;
   }
 }
 
@@ -3497,7 +3533,13 @@ footer {
   background-size: cover;
   height: 31.8rem ;
 }
+.origins_img_3{
+  height: 28.3rem !important;
+} 
 @media screen and (min-width:1900px) {
+  .origins_img_3{
+    height: 100% !important;
+  } 
   .gallery-origins{
   min-height: 71rem !important;
 
@@ -3541,6 +3583,9 @@ footer {
 
 }
 @media screen and (max-width:767px) {
+  .origins_img_3{
+    height: 100% !important;
+  } 
   .origins_img_5{
     margin-top: 1rem;
   }
