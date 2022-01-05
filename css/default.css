@@ -630,9 +630,9 @@
   margin:20px auto 100px;
 }
 .more-detalis-1{
-  width: 700px;min-height: 400px;
+  width: 700px;min-height: 200px;
   background: #F2F0F0;
-  padding: 60px 0;margin:50px auto 100px
+  padding: 60px 0;margin:50px auto 
 }
 @media (max-width:767px){
   .more-detalis,.more-detalis-1{width: 100%;padding: 30px;margin: 60px auto 30px;min-height: 100px;}
@@ -895,7 +895,7 @@
 /*end page event portifolio css */
 
 /*start page event service corporate css */
-.services-corporate{margin: 100px 0;}
+.services-corporate{margin: 100px 0 0px;}
 @media(max-width:767px){
   .services-corporate{margin: 0px 0 20px;}
 }
