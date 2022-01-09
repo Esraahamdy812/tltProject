@@ -3603,3 +3603,81 @@ footer {
 }
 
 /* ////origins  gallery style  */
+
+/* Athines  gallery style  */
+
+.Athines_img_5 {
+  background-image: url(../images/gallary/athines/image001.jpg);
+  background-size: 100% 100%;
+}
+
+.Athines_img_4{
+  background-image: url(../images/gallary/athines/image002.jpg);
+  background-size: 100% 100%;
+  
+ 
+
+
+}
+.Athines_img_7{
+  background-image: url(../images/gallary/athines/image003.jpg);
+  background-size: 100% 100%;
+  
+  
+}
+.Athines_img_6{
+  background-image: url(../images/gallary/athines/image004.jpg);
+  background-size: 100% 100%;
+}
+.Athines_img_3{
+  background-image: url(../images/gallary/athines/image005.jpg);
+  background-size: 100% 100%;
+}
+.Athines_img_1{
+  background-image: url(../images/gallary/athines/image006.jpg);
+ 
+  background-size: 100% 100%;
+ 
+}
+.Athines_img_8{
+  background-image: url(../images/gallary/athines/image007.jpg);
+  background-size: 100% 100%;
+ 
+}
+@media screen and (min-width:1900px) {
+  .gallery-Athines{
+  min-height: 71rem !important;
+
+}
+.Athines_img_8,.Athines_img_1,.Athines_img_3,.Athines_img_4,.Athines_img_5
+,.Athines_img_6,.Athines_img_7{
+ margin: 0 10px;
+}
+
+.for-bgImgOne{
+  height: 350px;
+  margin-top: 1rem;
+}
+}
+
+@media screen and (min-width:1400px) and (max-width:1899px){
+  
+  .gallery-Athines{
+    min-height: 64rem !important;
+}
+
+.Athines_img_8,.Athines_img_1,.Athines_img_3,.Athines_img_4,.Athines_img_5
+,.Athines_img_6,.Athines_img_7{
+ margin: 0 10px;
+}
+
+}
+@media screen and (max-width:767px) {
+ 
+  
+}
+.for-bgImgOne{
+  height: 350px;
+  margin-top: 1rem;
+}
+/* //// Athines  gallery style  */

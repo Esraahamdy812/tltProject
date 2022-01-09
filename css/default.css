@@ -2952,10 +2952,14 @@ padding-inline-start: 3px;
    {
      #eventType,#DESTINATION{width:230px !important}
     .register .resg-p input {  padding-right: 22rem !important;}
+    .text-wedd{width: 50% !important;margin: 0 auto;}
   }
+  .text-wedd{width: 55%;margin: 0 auto;}
   @media (max-width:767px){
+    .text-wedd{width: 95%;margin: 0 auto;}
     .register .resg-p input{padding-right: 70px !important;
       /* text-indent: 10px; */
+      
     }
     #eventType, #DESTINATION{margin-left: 0 !important;width: 55%;padding-right: 0 !important;padding-bottom: 3px;}
   }
