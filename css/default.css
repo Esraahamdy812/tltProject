@@ -3165,3 +3165,50 @@ outline-color: #f8f7f7;
   
   .brands-text-5{height: 85vh;}
 }
+/* added for Gallery-stills edits */
+.logo-stills-dimensions{
+  width: 100px;height: 55px;
+}
+.rit-logo-stills{
+background-image:url('../images/Logos-larg/PNG/Rituals\ \(3\).png');
+background-repeat:  no-repeat ;
+background-size: contain;
+background-position: center;
+
+}
+
+.lesidi-logo-stills {
+background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-repeat center;background-size: contain;
+}
+.coconut-logo-stills{background:url('../images/Logos-larg/PNG/Hospitality/Villa Coconut.png') no-repeat center;background-size: contain;}
+.hacienda-logo-stills{background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;background-size: contain;}
+.origin-logo-stills{background:url('../images/Logos-larg/PNG/Hospitality/The Origins.png') no-repeat center;background-size: contain;}
+.canLimon-logo-stills{background:url('../images/Logos-larg/PNG/Hospitality/Can\ Limon\ El\ Restaurante.png') no-repeat center;background-size: contain;}
+.bistro-logo-stills{background:url('../images/Logos-larg/PNG/image001.png') no-repeat center;background-size: contain;}
+/* events row */
+.familyFriends-logo-stills{background:url('../images/Logos-larg/PNG/Events\ &\ Entertainment/Family & Friends.png') no-repeat center;background-size: contain;}
+.club-logo-stills{background:url('../images/Logos-larg/PNG/Events & Entertainment/Club Clandestine.png') no-repeat center;background-size: contain;}
+/* living row */
+.sidii-logo-stills{background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
+/* life style row */
+.lifstle-logo-stills{background:url('../images/newLogo/Can\ Limon\ Concept\ Store.png') no-repeat center;background-size: 100%;transition: .3;}
+.lfstle-stills-dimensions{
+  width:150px;
+  height: 100px;
+}
+.mybranch-row{
+  width:70%;
+  margin-left: 5%;
+}
+.ff-event-row{
+  margin-left: 20.5%;
+}
+.club-mrgn{
+  margin-left: 18%;
+}
+@media screen and (min-width:1600px) {
+  .logo-stills-dimensions{
+    width:120px;
+   
+  }
+}
