@@ -258,6 +258,9 @@ main a, footer a {
 .h-25 {
   height: 25% !important;
 }
+.h-30 {
+  height: 30% !important;
+}
 
 .h-50 {
   height: 50% !important;
@@ -3165,7 +3168,7 @@ footer {
   }
 }
 /* //// rituals hospitality gallery end */
-.head-gallery-img{width: 100px;}
+.head-gallery-img{width: 110px;}
 @media (max-width:767px){
   .head-gallery-img{width: 70px;}
   .head-gallery-canlimon{width: 120px;}
@@ -3681,3 +3684,111 @@ footer {
   margin-top: 1rem;
 }
 /* //// Athines  gallery style  */
+
+/* bistro   gallery style  */
+
+/* .bistro_img_5 {
+  background-image: url(../images/gallary/bistro/bistro1.JPG);
+  background-size: cover;background-position: center;
+} */
+
+.bistro_img_4{
+  background-image: url(../images/gallary/bistro/bistro1.JPG);
+  background-size: cover;
+  background-position: center;
+  height: 20rem !important;
+  margin-top: -6.4rem ;
+
+
+}
+.bistro_img_7{
+  background-image: url(../images/gallary/bistro/bistro4.JPG);
+  background-size: cover;
+  background-position: center;
+  
+}
+/* .bistro_img_6{
+  background-image: url(../images/gallary/bistro/bistro4.JPG);
+  background-size: 100% 100%;
+} */
+.bistro_img_3{
+  background-image: url(../images/gallary/bistro/bistro3.JPG);
+  background-size: 100% 100%;
+}
+.bistro_img_1{
+  background-image: url(../images/gallary/bistro/bistro5.JPG);
+  background-position: bottom;
+  background-size: cover;
+  height: 28.3rem ;
+}
+.bistro_img_8{
+  background-image: url(../images/gallary/bistro/bistro2.JPG);
+  background-size: cover;
+  height: 31.8rem ;
+}
+@media screen and (min-width:1900px) {
+  .gallery-bistro{
+  min-height: 71rem !important;
+
+}
+.bistro_img_8{
+  height: 41rem ;
+}
+.bistro_img_4{
+  height: 21.8rem!important;
+  margin-top: 3.6rem;
+}
+.bistro_img_1 {
+  height: 30.7rem;
+}
+
+}
+
+@media screen and (min-width:1600px) and (max-width:1899px){
+  
+  .gallery-bistro{
+    min-height: 64rem !important;
+}
+
+.bistro_img_1{
+ 
+  height: 46.3rem ;
+}
+.bistro_img_8{
+ 
+  height: 43.8rem ;
+}
+.bistro_img_3{
+ 
+  height: 46rem !important ;
+  background-size: 100% 100%;
+}
+.bistro_img_4{
+ 
+  margin-top: 1rem;
+}
+
+}
+@media screen and (max-width:767px) {
+  .bistro_img_5{
+    margin-top: 1rem;display: none;
+  }
+  
+  .bistro_img_4{
+    margin-top: 28rem;
+  }
+  .bistro_img_7{
+    margin-top: 250rem;
+    background-size: cover;
+  }
+  
+}
+
+/* //// bistro gallery style  */
+.img-bistro{width:100%;height: 75%;}
+@media (min-width:1500px){
+  .img-bistro{height: 90%;}
+}
+@media (max-width:767px){
+  .img-bistro{height: 90% !important;}
+}
