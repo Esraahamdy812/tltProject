@@ -3191,10 +3191,15 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
 /* living row */
 .sidii-logo-stills{background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
 /* life style row */
-.lifstle-logo-stills{background:url('../images/newLogo/Can\ Limon\ Concept\ Store.png') no-repeat center;background-size: 100%;transition: .3;}
+.lifstle-logo-stills{
+
+  background:url('../images/newLogo/Can\ Limon\ Concept\ Store.png') no-repeat center;background-size: 100%;transition: .3;}
 .lfstle-stills-dimensions{
   width:150px;
   height: 100px;
+}
+.lifstl-mrgn{
+    margin-right: 6%;
 }
 .mybranch-row{
   width:70%;
@@ -3211,4 +3216,9 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
     width:120px;
    
   }
+}
+@media screen and (min-width:2000px) {
+  .lifstl-mrgn{
+    margin-right: 4%;
+}
 }
