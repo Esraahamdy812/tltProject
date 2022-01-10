@@ -3190,6 +3190,9 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
 .club-logo-stills{background:url('../images/Logos-larg/PNG/Events & Entertainment/Club Clandestine.png') no-repeat center;background-size: contain;}
 /* living row */
 .sidii-logo-stills{background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
+.athena-logo-stills{background: url("../images/Logos-larg/PNG/athines.png")no-repeat center;background-size: contain;}
+.limonlvng-logo-stills{background: url("../images/Logos-larg/PNG/Living/Can Limon Hotel & Residences.png")no-repeat center;background-size: contain;}
+.lvng-row{margin-left: 4rem;}
 /* life style row */
 .lifstle-logo-stills{
 
@@ -3203,7 +3206,8 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
 }
 .mybranch-row{
   width:70%;
-  margin-left: 5%;
+  /* margin-left: 5%; */
+  margin: auto;
 }
 .ff-event-row{
   margin-left: 20.5%;
