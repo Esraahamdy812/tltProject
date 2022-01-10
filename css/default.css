@@ -3189,7 +3189,10 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
 .familyFriends-logo-stills{background:url('../images/Logos-larg/PNG/Events\ &\ Entertainment/Family & Friends.png') no-repeat center;background-size: contain;}
 .club-logo-stills{background:url('../images/Logos-larg/PNG/Events & Entertainment/Club Clandestine.png') no-repeat center;background-size: contain;}
 /* living row */
-.sidii-logo-stills{background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
+.sidii-logo-stills{
+  width:70px;
+  height:66px;
+  background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
 .athena-logo-stills{background: url("../images/Logos-larg/PNG/athines.png")no-repeat center;background-size: contain;}
 .limonlvng-logo-stills{background: url("../images/Logos-larg/PNG/Living/Can Limon Hotel & Residences.png")no-repeat center;background-size: contain;}
 /* .lvng-row{margin-left: 4rem;} */
@@ -3199,6 +3202,10 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
   background:url('../images/newLogo/Can\ Limon\ Concept\ Store.png') no-repeat center;background-size: 100%;transition: .3;}
 .lfstle-stills-dimensions{
   width:100px;
+  height: 100px;
+}
+.lastrow-stills-dimensions{
+  width:150px;
   height: 100px;
 }
 .lifstl-mrgn{
