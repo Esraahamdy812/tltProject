@@ -3192,20 +3192,20 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
 .sidii-logo-stills{background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
 .athena-logo-stills{background: url("../images/Logos-larg/PNG/athines.png")no-repeat center;background-size: contain;}
 .limonlvng-logo-stills{background: url("../images/Logos-larg/PNG/Living/Can Limon Hotel & Residences.png")no-repeat center;background-size: contain;}
-.lvng-row{margin-left: 4rem;}
+/* .lvng-row{margin-left: 4rem;} */
 /* life style row */
 .lifstle-logo-stills{
 
   background:url('../images/newLogo/Can\ Limon\ Concept\ Store.png') no-repeat center;background-size: 100%;transition: .3;}
 .lfstle-stills-dimensions{
-  width:150px;
+  width:100px;
   height: 100px;
 }
 .lifstl-mrgn{
-    margin-right: 6%;
+    /* margin-right: 6%; */
 }
 .mybranch-row{
-  width:70%;
+  width:80%;
   /* margin-left: 5%; */
   margin: auto;
 }
