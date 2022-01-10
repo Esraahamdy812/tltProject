@@ -1197,6 +1197,7 @@ footer {
       width: 90px !important;
     }
     .brands-logo{height:270px !important}
+    .brands-logo-living{height:350px !important}
     .brands-logo-hos{height:390px !important}
   }
  
@@ -3785,6 +3786,80 @@ footer {
 }
 
 /* //// bistro gallery style  */
+/* can hotel style  */
+
+.can_Hotel_5 {
+  background-image: url(../images/gallary/can_hotel&esidences/img4.jpg);
+  background-size: 100% 100%;
+}
+
+.can_Hotel_4{
+  background-image: url(../images/gallary/can_hotel&esidences/img1.jpg);
+  background-size: 100% 100%;
+  
+ 
+
+
+}
+.can_Hotel_7{
+  background-image: url(../images/gallary/can_hotel&esidences/img3.jpg);
+  background-size: 100% 100%;
+  
+  
+}
+
+.can_Hotel_3{
+  background-image: url(../images/gallary/can_hotel&esidences/img5.jpg);
+  background-size: 100% 100%;
+}
+.can_Hotel_1{
+  background-image: url(../images/gallary/can_hotel&esidences/img6.jpg);
+ 
+  background-size: 100% 100%;
+ 
+}
+.can_Hotel_8{
+  background-image: url(../images/gallary/can_hotel&esidences/img2.jpg);
+  background-size: 100% 100%;
+ 
+}
+@media screen and (min-width:1900px) {
+  .gallery-Athines{
+  min-height: 71rem !important;
+
+}
+.can_Hotel_8,.can_Hotel_1,.can_Hotel_3,.can_Hotel_4,.can_Hotel_5
+,.can_Hotel_6,.can_Hotel_7{
+ margin: 0 10px;
+}
+
+.for-bgImgOne{
+  height: 350px;
+  margin-top: 1rem;
+}
+}
+
+@media screen and (min-width:1400px) and (max-width:1899px){
+  
+  .gallery-Athines{
+    min-height: 64rem !important;
+}
+
+.can_Hotel_8,.can_Hotel_1,.can_Hotel_3,.can_Hotel_4,.can_Hotel_5
+,.can_Hotel_6,.can_Hotel_7{
+ margin: 0 10px;
+}
+
+}
+@media screen and (max-width:767px) {
+ 
+  
+}
+.for-bgImgOne{
+  height: 350px;
+  margin-top: 1rem;
+}
+/* ////can hotel style  */
 .img-bistro{width:100%;height: 75%;}
 @media (min-width:1500px){
   .img-bistro{height: 90%;}
