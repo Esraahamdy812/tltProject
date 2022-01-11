@@ -2431,7 +2431,7 @@ text-align: center;width: 100%;
 .branch-tree p {margin-top: 2rem;}
 /* .box-section-info {top:38%;} */
 .wed-ul{line-height: 1,2;}
-.logo-box-brands-hos{margin:12px 0}
+.logo-box-brands-hos{margin: 50px 0 80px !important;}
 .w-66{width: 90%;}
 .main-brands-lg{display: none;}
 .main-brands-sm{display: block;}
@@ -3126,6 +3126,11 @@ padding-inline-start: 3px;
     flex-direction: row;
     flex-wrap: nowrap;
   }
+  .branches .branches-body > div {
+ 
+    margin-top: 0px;
+  
+  }
   
 }
 @media (min-width: 1600px) and (max-width:1899px){
@@ -3169,6 +3174,7 @@ outline-color: #f8f7f7;
 .logo-stills-dimensions{
   width: 100px;height: 55px;
 }
+.logo-home-dimensions{width: 80px;height: 55px;}
 .rit-logo-stills{
 background-image:url('../images/Logos-larg/PNG/Rituals\ \(3\).png');
 background-repeat:  no-repeat ;
@@ -3184,16 +3190,21 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
 .hacienda-logo-stills{background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;background-size: contain;}
 .origin-logo-stills{background:url('../images/Logos-larg/PNG/Hospitality/The Origins.png') no-repeat center;background-size: contain;}
 .canLimon-logo-stills{background:url('../images/Logos-larg/PNG/Hospitality/Can\ Limon\ El\ Restaurante.png') no-repeat center;background-size: contain;}
+.quiteCat-logo-stills{background:url('../images/Logos-larg/PNG/Hospitality/The\ Quiet\ Cat.png') no-repeat center;background-size: contain;}
 .bistro-logo-stills{background:url('../images/Logos-larg/PNG/image001.png') no-repeat center;background-size: contain;}
+.cava-logo-stills{background:url('../images/Logos-larg/PNG/cava.png') no-repeat center;background-size: contain;}
 /* events row */
+.balirca-logo-stills{background:url('../images/newLogo/balearc.png') no-repeat center;background-size: contain;}
 .familyFriends-logo-stills{background:url('../images/Logos-larg/PNG/Events\ &\ Entertainment/Family & Friends.png') no-repeat center;background-size: contain;}
 .club-logo-stills{background:url('../images/Logos-larg/PNG/Events & Entertainment/Club Clandestine.png') no-repeat center;background-size: contain;}
+.sound-logo-stills{background:url('../images/Logos-larg/PNG/Events & Entertainment/The\ Sound\ of\ The\ Lemon\ Tree.png') no-repeat center;background-size: contain;}
 /* living row */
 .sidii-logo-stills{
   width:70px;
   height:100px;
   background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
 .athena-logo-stills{background: url("../images/Logos-larg/PNG/athines.png")no-repeat center;background-size: contain;}
+.ritulas-logo-stills{background: url("../images/Logos-larg/PNG/Living/Rituals Village.png")no-repeat center;background-size: contain;}
 .limonlvng-logo-stills{background: url("../images/Logos-larg/PNG/Living/Can Limon Hotel & Residences.png")no-repeat center;background-size: contain;}
 /* .lvng-row{margin-left: 4rem;} */
 /* life style row */
@@ -3202,6 +3213,10 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
   background:url('../images/newLogo/Can\ Limon\ Concept\ Store.png') no-repeat center;background-size: 100%;transition: .3;}
 .lfstle-stills-dimensions{
   width:100px;
+  height: 100px;
+}
+.lfstle-home-dimensions{
+  width:80px;
   height: 100px;
 }
 .lastrow-stills-dimensions{
@@ -3216,9 +3231,16 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
   /* margin-left: 5%; */
   margin: auto;
 }
+.mybranch-home-row{
+  width:95%;
+  /* margin-left: 5%; */
+  margin: auto;
+}
 .ff-event-row{
   margin-left: 20.5%;
 }
+.ff-event-home{ margin-left: 10.5%;}
+
 .club-mrgn{
   margin-left: 18%;
 }
@@ -3236,6 +3258,11 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
     width:120px;
    
   }
+  .logo-home-dimensions{width: 100px;}
+}
+@media screen and (min-width:1800px) {
+ 
+  .logo-home-dimensions{width: 120px;}
 }
 @media screen and (min-width:2000px) {
   .lifstl-mrgn{

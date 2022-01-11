@@ -1198,7 +1198,7 @@ footer {
     }
     .brands-logo{height:270px !important}
     .brands-logo-living{height:350px !important}
-    .brands-logo-hos{height:390px !important}
+    .brands-logo-hos{height:460px !important}
   }
  
   .for-hover img{transition: .5s;}
@@ -1542,8 +1542,8 @@ footer {
 
 /* for new page rituals village */
 .ret_img_5{
-  background-image: url(../images/ritVillageLiving/img1.png);
-  background-size: cover;
+  background-image: url(../images/ritVillageLiving/img7.png);
+  background-size: cover;background-position: bottom;
 }
 .ret_img_2 {
   background-image: url(../images/ritVillageLiving/img4.png);
@@ -1571,8 +1571,8 @@ footer {
   background-size: 100% 100%;
 }
 .ret_img_1{
-  background-image: url(../images/ritVillageLiving/img7.png);
-  background-size:100% 100%;
+  background-image: url(../images/ritVillageLiving/img1.png);
+  background-size:cover;background-position: center;
 }
 
 @media screen and (min-width:1900px){
@@ -3610,12 +3610,12 @@ footer {
 
 /* Athines  gallery style  */
 
-.Athines_img_5 {
+.ninty_img_5 {
   background-image: url(../images/gallary/athines/image001.jpg);
   background-size: 100% 100%;
 }
 
-.Athines_img_4{
+.ninty_img_4{
   background-image: url(../images/gallary/athines/image002.jpg);
   background-size: 100% 100%;
   
@@ -3623,27 +3623,27 @@ footer {
 
 
 }
-.Athines_img_7{
+.ninty_img_7{
   background-image: url(../images/gallary/athines/image003.jpg);
   background-size: 100% 100%;
   
   
 }
-.Athines_img_6{
+.ninty_img_6{
   background-image: url(../images/gallary/athines/image004.jpg);
   background-size: 100% 100%;
 }
-.Athines_img_3{
+.ninty_img_3{
   background-image: url(../images/gallary/athines/image005.jpg);
   background-size: 100% 100%;
 }
-.Athines_img_1{
+.ninty_img_1{
   background-image: url(../images/gallary/athines/image006.jpg);
  
   background-size: 100% 100%;
  
 }
-.Athines_img_8{
+.ninty_img_8{
   background-image: url(../images/gallary/athines/image007.jpg);
   background-size: 100% 100%;
  
@@ -3653,8 +3653,8 @@ footer {
   min-height: 71rem !important;
 
 }
-.Athines_img_8,.Athines_img_1,.Athines_img_3,.Athines_img_4,.Athines_img_5
-,.Athines_img_6,.Athines_img_7{
+.ninty_img_8,.ninty_img_1,.ninty_img_3,.ninty_img_4,.ninty_img_5
+,.ninty_img_6,.ninty_img_7{
  margin: 0 10px;
 }
 
@@ -3670,8 +3670,8 @@ footer {
     min-height: 64rem !important;
 }
 
-.Athines_img_8,.Athines_img_1,.Athines_img_3,.Athines_img_4,.Athines_img_5
-,.Athines_img_6,.Athines_img_7{
+.ninty_img_8,.ninty_img_1,.ninty_img_3,.ninty_img_4,.ninty_img_5
+,.ninty_img_6,.ninty_img_7{
  margin: 0 10px;
 }
 
@@ -3867,3 +3867,81 @@ footer {
 @media (max-width:767px){
   .img-bistro{height: 90% !important;}
 }
+
+/* Athines  gallery style  */
+
+.Athines_img_5 {
+  background-image: url(../images/gallary/athines_living/img4.JPG);
+  background-size: 100% 100%;
+}
+
+/* .Athines_img_4{
+  background-image: url(../images/gallary/athines_living/img1.JPG);
+  background-size: 100% 100%;
+  
+ 
+
+
+}*/
+.Athines_img_7{
+  background-image: url(../images/gallary/athines_living/img5.JPG);
+  background-size: 100% 100%;
+  
+  
+} 
+/* .Athines_img_6{
+  background-image: url(../images/gallary/athines_living/img1.JPG);
+  background-size: 100% 100%;
+} */
+.Athines_img_3{
+  background-image: url(../images/gallary/athines_living/img2.JPG);
+  background-size: 100% 100%;
+}
+.Athines_img_1{
+  background-image: url(../images/gallary/athines_living/img3.JPG);
+ 
+  background-size: 100% 100%;
+ 
+}
+.Athines_img_8{
+  background-image: url(../images/gallary/athines_living/img1.JPG);
+  background-size: 100% 100%;
+ 
+}
+@media screen and (min-width:1900px) {
+  .gallery-Athines{
+  min-height: 71rem !important;
+
+}
+.Athines_img_8,.Athines_img_1,.Athines_img_3,.Athines_img_4,.Athines_img_5
+,.Athines_img_6,.Athines_img_7{
+ margin: 0 10px;
+}
+
+.for-bgImgOne{
+  height: 350px;
+  margin-top: 1rem;
+}
+}
+
+@media screen and (min-width:1400px) and (max-width:1899px){
+  
+  .gallery-Athines{
+    min-height: 64rem !important;
+}
+
+.Athines_img_8,.Athines_img_1,.Athines_img_3,.Athines_img_4,.Athines_img_5
+,.Athines_img_6,.Athines_img_7{
+ margin: 0 10px;
+}
+
+}
+@media screen and (max-width:767px) {
+ 
+  
+}
+.for-bgImgOne{
+  height: 350px;
+  margin-top: 1rem;
+}
+/* //// Athines  gallery style  */
