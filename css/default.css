@@ -3269,3 +3269,26 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
     margin-right: 4%;
 }
 }
+/* added for modal  */
+.limon-branch1{
+  height: 5rem;
+background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;background-size: contain;
+
+}
+#exampleModal1 .modal-content{
+  background-color: #f8f7f7;
+}
+.item-modal1{
+ border: 2px solid #d6d5d5;
+}
+.rituals-branch1{
+  background-image:url('../images/Logos-larg/PNG/Rituals\ \(3\).png');
+  background-repeat:  no-repeat ;
+  background-size: contain;
+  background-position: center;
+  height: 5rem;
+  width: 75%;
+  margin: auto;
+  
+  }
+  
