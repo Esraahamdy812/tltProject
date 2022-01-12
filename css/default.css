@@ -3278,6 +3278,7 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 #exampleModal1 .modal-content{
   background-color: #f8f7f7;
 }
+
 .item-modal1{
  border: 2px solid #d6d5d5;
 }
@@ -3291,4 +3292,14 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   margin: auto;
   
   }
-  
+  @media(max-width:767px){
+    #exampleModal1 .modal-content,#exampleModal2 .modal-content{
+     
+      margin: 0 auto;
+      width: 80%;
+    }
+    #exampleModal1 .modal-dialog,#exampleModal2 .modal-dialog{margin-top:50px}
+   
+    .rituals-branch1{width: 60%;}
+   
+  }
