@@ -142,7 +142,7 @@
 
     <main>
         <div class="container-fluid" style="padding: 0;">
-        <section class="about-portifolio pos-relative about-portifolio-2">
+        <section class="about-portifolio pos-relative about-portifolio-2 about-portifolio-mob">
             <div class="text-for-portifolio mob-text-portifo">
                 <p class="text-center BigCaslon-35 p-text-about-section" >Together we walked on a dream, fell into the music, and reunited once again, to create unforgettable memories with our beloved family and friends. Our 4th reunion took place at ‘The Factory’ at Soma Bay, at the Red Sea, in celebration of the New Year of 2020. Connecting to the 5 human senses, ‘The Factory’ experience took guests on an epic journey, filled with surprises and alluring entertainment shows at every turn. The concept was built on surrealism and abstraction; tackling each and every sense, from mesmerizing visuals, holographic colours to familiar tunes, interactive corners and the smell of sweet reminiscence.
                 </p>
@@ -152,10 +152,10 @@
         <section class="portifolio-vedio pos-relative "  >
             <div class="text-center">
               
-                  <div class="video-w"  onclick="playVideo('images/gallary/videos/Galerie.mp4')">
-                         
+                <div class="video-w pos-relative"   onclick="playVideo('images/gallary/videos/Galerie.mp4')">
+                    <div class="video-hover"></div>       
                     <img style="width: 100%;" src="images/portifo/video_poster.png" >
-                     <img src="images/gallary/play-button.png" class="play-btn-portifolio" ></a>
+                     <img src="images/gallary/play-button.png" style="z-index: 1200;" class="play-btn-portifolio" ></a>
                   
 
                 </div>
@@ -227,7 +227,7 @@
                         <div style="height: 100%;width: 100%;background: url(images/portifo/Soma_Bay/Image\ 1.jpg);background-size: cover;background-position: center"></div>
                     </div>
                     <div class="col-md-6" style="padding-right: 0;">
-                        <div style="height: 70%;width: 60%;background: url(images/portifo/Soma_Bay/Image\ 2.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
+                        <div class="img-in-mob" style="height: 70%;width: 60%;background: url(images/portifo/Soma_Bay/Image\ 2.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
                     </div>
                 </div>
             </div>
@@ -236,7 +236,7 @@
             <div class="img-bigSmall-box" style="height: 100%;">
                 <div class="row" style="height: 100%;margin-right: 0;">
                     <div class="col-md-6 order-last-sm-media" >
-                        <div style="height: 70%;width: 60%;background: url(images/portifo/Soma_Bay/Image\ 3.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background-position:center ;"></div>
+                        <div  class="img-in-mob-top" style="height: 70%;width: 60%;background: url(images/portifo/Soma_Bay/Image\ 3.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background-position:center ;"></div>
                     </div>
                     <div class="col-md-6 order-first-sm-media" style="padding-right: 0;">
                         <div style="height: 100%;width: 100%;background: url(images/portifo/Soma_Bay/Image\ 4.jpg);background-size: cover;background-position: center;"></div>
@@ -249,7 +249,7 @@
         <div class="container">
             <section class="img-alone  pos-relative rem-5" >
            
-                <div class="img-alone-box" style="width:100%;height: 100%;background: url(images/portifo/Soma_Bay/Image\ 5.jpg) center;background-size: cover;">
+                <div  style="width:100%;height: 100%;background: url(images/portifo/Soma_Bay/Image\ 5.jpg) center;background-size: cover;">
                 
               
             </div>
@@ -578,6 +578,7 @@
         function playVideo(file){
             myVideo.src = file; 
             videoPlayer.style.display = "block";
+            videoPlayer.style.zIndex="1000";
             videoPlayer.style.margin = "100px auto"
             }
             

@@ -3399,12 +3399,17 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   }
 
   @media (max-width:767px){
+    .img-in-mob-normal{height: 80% !important;}
+    .img-in-mob{height: 80% !important;background-position: center !important;}
+    .img-in-mob2{height: 80% !important;background-position: bottom !important;}
+    .img-in-mob-top{height: 80% !important;background-position: top !important;}
     .portfolio-pages-header{height: 80vh;}
     .portf-h2-head{font-size: 25px !important;}
     .head-text-span{font-size: 17px !important}
     .header-text-portifo,.mob-text-portifo{width: 95%;}
     .about-portifolio{height: 40vh;}
     .about-portifolio-2{height: 55vh;}
+    .about-portifolio-mob{height: 70vh;}
     .about-portifolio-4{height:100vh}
     .portifolio-vedio{min-height: 20vh;margin-bottom: 5rem;}
     .p-text-about-section{width: 90%;font-size:16px !important}

@@ -1,27 +1,21 @@
 
 let all_items = [
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-1.png',type:'social'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-5.png',type:'social'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-2.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-6.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-3.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-7.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-4.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-8.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-6.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-3.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-7.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-4.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-8.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-1.png',type:'social'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-5.png',type:'social'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-2.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-7.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-4.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-8.png',type:'corporate'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-6.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-3.png',type:'originals'},
-    {title :'New Season, New Hopes.' , date : 'March 30, 2020',img:'../images/portifo/portifo-3.png',type:'originals'},
+    {title :'Arabian Nights' , date : 'March 30, 2020',img:'../images/portifo/Arabian_Nights/Header-1.jpg',type:'social',href:'Arabian_Nights.html'},
+    {title :'Commencing the Festive Season' , date : 'March 30, 2020',img:'../images/portifo/Bvlgari/Header.jpg',type:'social',href:'Bvlgari.html'},
+    {title :'CIFF After Party' , date : 'March 30, 2020',img:'../images/portifo/CIFF_2018/Header.jpg',type:'originals',href:'CIFF_2018.html'},
+    {title :'CIFF Official Opening After Party' , date : 'March 30, 2020',img:'../images/portifo/CIFF_After_Party_Gala_2019/Header.jpg',type:'originals',href:'CIFF__2019.html'},
+    {title :'CIFF “People of the Industry”' , date : 'March 30, 2020',img:'../images/portifo/CIFF_People_of_Industry_2019/header.jpg',type:'originals',href:'CIFF_People_of_the_Industry.html'},
+    {title :'GIFF Pepsi Afterparty' , date : 'March 30, 2020',img:'../images/portifo/pepsi/Header-min.jpg',type:'corporate',href:'CIFF_People_of_Industry_1_Pepsi.html'},
+    {title :'Family & Friends: Almaza Bay' , date : 'March 30, 2020',img:'../images/portifo/Almaza_Bay/Header.jpg',type:'corporate',href:'F&F_Almaza_Bay_2019.html'},
+    {title :'Family & Friends: Soma Bay' , date : 'March 30, 2020',img:'../images/portifo/Soma_Bay/Header.jpg',type:'corporate',href:'F&F_Soma_Bay_2019_2020.html'},
+    {title :'Family & Friends: Marassi 2018' , date : 'March 30, 2020',img:'../images/portifo/F&F_Marassi/Header.jpg',type:'originals',href:'F&F_TLT_Marassi_2018.html'},
+    {title :'Fanadir Launch Party' , date : 'March 30, 2020',img:'../images/portifo/Fanadir/Header.jpg',type:'originals',href:'Fanadir_Launch.html'},
+    {title :'New Year’s Eve 2020' , date : 'March 30, 2020',img:'../images/portifo/Galerie/Header.jpg',type:'corporate',href:'Galerie.html'},
+    {title :'Garden 8 Launch Party' , date : 'March 30, 2020',img:'../images/portifo/Garden8/HEADER.jpg',type:'corporate',href:'Garden_8_Launch_Party_Winter_Garden.html'},
+    {title :'Gin meets Burger' , date : 'March 30, 2020',img:'../images/portifo/Gin_meets_Burger/Header.jpg',type:'corporate',href:'Gin_meets_Burger.html'},
+    {title :'Rituals of the Sun' , date : 'March 30, 2020',img:'../images/portifo/Rituals_sun/Header.jpg',type:'social',href:'Rituals_of_the_sun.html'},
+    {title :'Rituals Village Launch' , date : 'March 30, 2020',img:'../images/gallary/Clandestine/img3.png',type:'social',href:'Rituals_Village.html'},
+    {title :'ZO Breast Cancer Awareness Party' , date : 'March 30, 2020',img:'../images/portifo/ZO_Breast/Header.jpg',type:'social',href:'ZO_Breast_Cancer_Awareness.html'}
 
     
 ];
@@ -71,7 +65,7 @@ function DisplayList (items ,wrapper,rows_per_page,page){
                                     <h5 class="card-title AlegreyaSans-Bold">${item.title}</h5>
                                     <h6 class="card-subtitle mb-2 AlegreyaSansLight text-muted">${item.date}</h6>
                                     <div style="background-color: #000;z-index: 100;">
-                                        <img src=${item.img} class="card-img-top card-img-top2" alt="...">
+                                     <a href=${item.href}> <img src=${item.img}  class="card-img-top card-img-top2" alt="..."></a>
     
                                     </div>
     

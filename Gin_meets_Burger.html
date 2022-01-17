@@ -152,10 +152,10 @@
         <section class="portifolio-vedio pos-relative "  >
             <div class="text-center">
               
-                  <div class="video-w"  onclick="playVideo('images/gallary/videos/Galerie.mp4')">
-                         
+                <div class="video-w pos-relative"   onclick="playVideo('images/gallary/videos/Galerie.mp4')">
+                    <div class="video-hover"></div>       
                     <img style="width: 100%;" src="images/portifo/video_poster.png" >
-                     <img src="images/gallary/play-button.png" class="play-btn-portifolio" ></a>
+                     <img src="images/gallary/play-button.png" style="z-index: 1200;" class="play-btn-portifolio" ></a>
                   
 
                 </div>
@@ -216,7 +216,7 @@
                         <div style="height: 100%;width: 100%;background: url(images/portifo/Gin_meets_Burger/Image\ 1.jpg);background-size: cover;background-position: center"></div>
                     </div>
                     <div class="col-md-6" style="padding-right: 0;">
-                        <div style="height: 70%;width: 60%;background: url(images/portifo/Gin_meets_Burger/Image\ 2.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
+                        <div class="img-in-mob2" style="height: 70%;width: 60%;background: url(images/portifo/Gin_meets_Burger/Image\ 2.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
                     </div>
                 </div>
             </div>
@@ -567,6 +567,7 @@
         function playVideo(file){
             myVideo.src = file; 
             videoPlayer.style.display = "block";
+            videoPlayer.style.zIndex="1000";
             videoPlayer.style.margin = "100px auto"
             }
             

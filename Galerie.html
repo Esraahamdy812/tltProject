@@ -141,7 +141,7 @@
 
     <main>
         <div class="container-fluid" style="padding: 0;">
-        <section class="about-portifolio pos-relative about-portifolio-2">
+        <section class="about-portifolio pos-relative about-portifolio-2 about-portifolio-mob">
             <div class="text-for-portifolio mob-text-portifo">
                 <p class="text-center BigCaslon-35 p-text-about-section" >GALERIE conveys a beautiful story about art & life; an alluring perspective we ought to see while entering the new year. We’re embracing the development of classical art on every level, through every decade, over the natural course of history. Dynamic surroundings, masterpieces and human-life art are key pillars of our NYE journey. <br> <br>
                     A celebration of art, music and light takes place on New Years Eve. Creating a space that is very dynamic, extravagant and bewildering to the eye. It is as if one has entered a grand art exhibition filled with many artistic elements & pieces placed across the venue.
@@ -152,10 +152,10 @@
         <section class="portifolio-vedio pos-relative "  >
             <div class="text-center">
               
-                  <div class="video-w"  onclick="playVideo('images/gallary/videos/Galerie.mp4')">
-                         
+                <div class="video-w pos-relative"   onclick="playVideo('images/gallary/videos/Galerie.mp4')">
+                    <div class="video-hover"></div>       
                     <img style="width: 100%;" src="images/portifo/video_poster.png" >
-                     <img src="images/gallary/play-button.png" class="play-btn-portifolio" ></a>
+                     <img src="images/gallary/play-button.png" style="z-index: 1200;" class="play-btn-portifolio" ></a>
                   
 
                 </div>
@@ -224,7 +224,7 @@
                         <div style="height: 100%;width: 100%;background: url(images/portifo/Galerie/Image\ 1.jpg);background-size: cover;background-position: center"></div>
                     </div>
                     <div class="col-md-6" style="padding-right: 0;">
-                        <div style="height: 70%;width: 60%;background: url(images/portifo/Galerie/Image\ 2.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
+                        <div class="img-in-mob" style="height: 70%;width: 60%;background: url(images/portifo/Galerie/Image\ 2.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
                     </div>
                 </div>
             </div>
@@ -233,7 +233,7 @@
             <div class="img-bigSmall-box" style="height: 100%;">
                 <div class="row" style="height: 100%;margin-right: 0;">
                     <div class="col-md-6 order-last-sm-media" >
-                        <div style="height: 70%;width: 60%;background: url(images/portifo/Galerie/Image\ 3.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background-position:center ;"></div>
+                        <div  class="img-in-mob-normal" style="height: 70%;width: 60%;background: url(images/portifo/Galerie/Image\ 3.jpg);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);background-position:center ;"></div>
                     </div>
                     <div class="col-md-6 order-first-sm-media" style="padding-right: 0;">
                         <div style="height: 100%;width: 100%;background: url(images/portifo/Galerie/Image\ 4.jpg);background-size: cover;background-position: center;"></div>
@@ -246,7 +246,7 @@
         <div class="container">
             <section class="img-alone  pos-relative rem-5" >
            
-                <div class="img-alone-box" style="width:100%;height: 100%;background: url(images/portifo/Galerie/Image\ 5.jpg) center;background-size: cover;">
+                <div  style="width:100%;height: 100%;background: url(images/portifo/Galerie/Image\ 5.jpg) center;background-size: cover;">
                 
               
             </div>
@@ -575,6 +575,7 @@
         function playVideo(file){
             myVideo.src = file; 
             videoPlayer.style.display = "block";
+            videoPlayer.style.zIndex="1000";
             videoPlayer.style.margin = "100px auto"
             }
             

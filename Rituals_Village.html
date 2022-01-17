@@ -146,10 +146,10 @@
         <section class="portifolio-vedio pos-relative top-video" style="margin-top: 5rem;"  >
             <div class="text-center">
               
-                  <div class="video-w"  onclick="playVideo('images/gallary/videos/Galerie.mp4')">
-                         
+                <div class="video-w pos-relative"   onclick="playVideo('images/gallary/videos/Galerie.mp4')">
+                    <div class="video-hover"></div>       
                     <img style="width: 100%;" src="images/portifo/video_poster.png" >
-                     <img src="images/gallary/play-button.png" class="play-btn-portifolio" ></a>
+                     <img src="images/gallary/play-button.png" style="z-index: 1200;" class="play-btn-portifolio" ></a>
                   
 
                 </div>
@@ -198,7 +198,7 @@
                         <div style="height: 100%;width: 100%;background: url(images/gallary/Clandestine/img5.png);background-size: cover;background-position: center"></div>
                     </div>
                     <div class="col-md-6" style="padding-right: 0;">
-                        <div style="height: 70%;width: 60%;background: url(images/gallary/Clandestine/img6.png);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
+                        <div  class="img-in-mob-normal" style="height: 70%;width: 60%;background: url(images/gallary/Clandestine/img6.png);background-size: cover;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%);"></div>
                     </div>
                 </div>
             </div>
@@ -220,7 +220,7 @@
         <div class="container">
             <section class="img-alone  pos-relative rem-5" >
            
-                <div class="img-alone-box" style="width:100%;height: 100%;background: url(images/gallary/Clandestine/img4.png) center;background-size: cover;background-position: center;">
+                <div  style="width:100%;height: 100%;background: url(images/gallary/Clandestine/img4.png) center;background-size: cover;background-position: center;">
                 
               
             </div>
@@ -549,6 +549,7 @@
         function playVideo(file){
             myVideo.src = file; 
             videoPlayer.style.display = "block";
+            videoPlayer.style.zIndex="1000";
             videoPlayer.style.margin = "100px auto"
             }
             
