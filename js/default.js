@@ -1,4 +1,27 @@
 $(document).ready(function () {
+    $('.owl-3').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: true,
+        autoplay: true, // time for slides changes
+        autoplayTimeout:3000 ,
+        smartSpeed: 500, // duration of change of 1 slide
+    
+        responsiveClass:true,
+        navText : ["<span aria-label='Previous' aria-hidden='true'></span>","<span aria-label='Next' aria-hidden='true'></span>"],
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 1
+            },
+            1000: {
+                items: 3
+            }
+        }
+    })
     $('.owl-2').owlCarousel({
         loop: true,
         margin: 0,

@@ -1,6 +1,6 @@
 
 let all_items = [
-    {title :'Arabian Nights' , date : 'March 30, 2020',img:'../images/portifo/Arabian_Nights/Header-1.jpg',type:'social',href:'Arabian_Nights.html'},
+    {title :'Arabian Nights' , date : 'March 30, 2020',img:'../images/portifo/Arabian_Nights/Header.jpg',type:'social',href:'Arabian_Nights.html'},
     {title :'Commencing the Festive Season' , date : 'March 30, 2020',img:'../images/portifo/Bvlgari/Header.jpg',type:'social',href:'Bvlgari.html'},
     {title :'CIFF After Party' , date : 'March 30, 2020',img:'../images/portifo/CIFF_2018/Header.jpg',type:'originals',href:'CIFF_2018.html'},
     {title :'CIFF Official Opening After Party' , date : 'March 30, 2020',img:'../images/portifo/CIFF_After_Party_Gala_2019/Header.jpg',type:'originals',href:'CIFF__2019.html'},
@@ -60,20 +60,36 @@ function DisplayList (items ,wrapper,rows_per_page,page){
         htmlOutput += `
         <div class="col-lg-3 col-md-6" style="padding:0">
                            
-                            <div class="card" style="width: 100%;">
-                                <div class="card-body">
-                                    <h5 class="card-title AlegreyaSans-Bold">${item.title}</h5>
-                                    <h6 class="card-subtitle mb-2 AlegreyaSansLight text-muted">${item.date}</h6>
-                                    <div style="background-color: #000;z-index: 100;">
-                                     <a href=${item.href}> <img src=${item.img}  class="card-img-top card-img-top2" alt="..."></a>
-    
-                                    </div>
-    
-                                </div>
-                            </div>
-                        </div>
+        <div class="card" style="width: 100%;">
+            <div class="card-body">
+                <h5 class="card-title AlegreyaSans-Bold">${item.title}</h5>
+                <h6 class="card-subtitle mb-2 AlegreyaSansLight text-muted">${item.date}</h6>
+                <div style="background-color: #000;z-index: 100;">
+                 <a href=${item.href}>
+                    <div class="js-img-portifolio card-img-top" style="background-image: url(${item.img});"></div>
+                   
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
        `;
-        
+//        <div class="col-lg-3 col-md-6" style="padding:0">
+                           
+//        <div class="card" style="width: 100%;">
+//            <div class="card-body">
+//                <h5 class="card-title AlegreyaSans-Bold">${item.title}</h5>
+//                <h6 class="card-subtitle mb-2 AlegreyaSansLight text-muted">${item.date}</h6>
+//                <div style="background-color: #000;z-index: 100;">
+//                 <a href=${item.href}> <img src=${item.img}  class="card-img-top card-img-top2" alt="..."></a>
+
+//                </div>
+
+//            </div>
+//        </div>
+//    </div>
         // wrapper.appendChild(htmlOutput);
     }
     $( '#list' ).html( htmlOutput );

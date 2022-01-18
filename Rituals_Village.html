@@ -143,26 +143,27 @@
     <main>
         <div class="container-fluid" style="padding: 0;">
        
-        <section class="portifolio-vedio pos-relative top-video" style="margin-top: 5rem;"  >
-            <div class="text-center">
-              
-                <div class="video-w pos-relative"   onclick="playVideo('images/gallary/videos/Galerie.mp4')">
-                    <div class="video-hover"></div>       
-                    <img style="width: 100%;" src="images/portifo/video_poster.png" >
-                     <img src="images/gallary/play-button.png" style="z-index: 1200;" class="play-btn-portifolio" ></a>
+            <section class="portifolio-vedio pos-relative top-video" style="margin-top: 5rem;"  >
+                <div class="text-center">
                   
-
+                    <div class="video-w pos-relative"   onclick="playVideo('images/gallary/videos/Galerie.mp4')">
+                        <div class="video-hover"></div>       
+                        <img style="width: 100%;" src="images/portifo/video_poster.png" >
+                         <img src="images/gallary/play-button.png" style="z-index: 1200;" class="play-btn-portifolio" ></a>
+                      
+                        
+                    </div>
+                    <div class="video-player2" id="videoPlayer">
+                        <video width="100%" height="100%" controls autoplay id="myVideo">
+                            <source src="images/gallary/video1.mp4">
+                        </video>
+                        <img src="images/gallary/remove-button.png"  class="close-btn"
+                        onclick="stopVideo()">
+                    </div>
+                    
                 </div>
-                <div class="video-player" id="videoPlayer">
-                    <video width="100%" height="100%" controls autoplay id="myVideo">
-                        <source src="images/gallary/video1.mp4">
-                    </video>
-                    <img src="images/gallary/remove-button.png"  class="close-btn"
-                    onclick="stopVideo()">
-                </div>
-            </div>
-
-        </section>
+    
+            </section>
         <section class="portfolio-carousel pos-relative" >
             <div id="portfolio-carousel" style="height: 100% !important;" class="carousel slide" data-touch="false" data-interval="false">
                 <div class="carousel-inner" style="height: 100% !important;">
@@ -232,39 +233,58 @@
         
         <section class="pos-relative ls-sec rem-5 rem-remove-2" style="overflow: hidden !important;margin-top: 5rem;border-top: 2px solid rgb(207, 202, 202)">
             <div class="text-center" style="height: 100%;">
-                <h2 class="BigCaslon-35 my-5 my-1900" >Explore More Projects </h2>
-               <div class="Explore-for-portifolio " style="display: flex !important;justify-content:space-between;">
-                   <div class="explore_projects" style="margin: 0 10px;">
-                       <div class="img-sss" style="width: 300px;height: 150px;background-image: url(images/portifo/CIFF_After_Party_Gala_2019/Image\ 1.jpg);;"></div>
-                   </div>
-                   <div class="explore_projects" style="margin: 0 10px;">
-                    <div class="img-sss pos-relative" style="margin-bottom: 20px;width: 300px;height: 150px;;background-image: url(images/portifo/CIFF_After_Party_Gala_2019/Image\ 4.jpg);;">
-                        <p class="AlegreyaSansScMedium">explore
-                            <i class="fa fa-angle-right text-white"></i>
-                        </p>
+                <h2 class="BigCaslon-35 my-5" >Explore More Projects </h2>
+                  
+                <div class="owl-carousel owl-3 owl-theme">
+                    <!-- news 3 -->
+                    <div class="item">
+    
+                        <a href="CIFF_People_of_the_Industry.html">
+                            <div class="explore_projects" style="margin: 0 10px;">
+                                <div class="img-sss pos-relative" style="margin:0 auto 20px;width: 80%;height: 200px;background-image: url(images/portifo/CIFF_People_of_Industry_2019/header.jpg);background-size: cover;background-position: bottom;">
+                                    <p class="AlegreyaSansScMedium">explore
+                                        <i class="fa fa-angle-right text-white"></i>
+                                    </p>
+                                </div>
+                                <p class="gillsans-regular" >CIFF People of the Industry</p>
+                            </div>
+                        </a>
+    
                     </div>
-                    <a class="gillsans-regular" href="" >Event Name</a>
-                </div>
-                <div class="explore_projects" style="margin: 0 10px;">
-                    <div class="img-sss pos-relative" style="margin-bottom: 20px;width: 300px;height: 150px;background-image: url(images/portifo/CIFF_After_Party_Gala_2019/Image\ 2.jpg);;">
-                        <p class="AlegreyaSansScMedium">explore
-                            <i class="fa fa-angle-right text-white"></i>
-                        </p>
+                    <!-- new 1 -->
+                    <div class="item">
+    
+                        <a href="F&F_Soma_Bay_2019_2020.html">
+                            <div class="explore_projects" style="margin: 0 10px;">
+                                <div class="img-sss pos-relative" style="margin:0 auto 20px;width: 80%;height: 200px;background-image: url(images/portifo/Soma_Bay/Header.jpg);background-size: cover;background-position: bottom;">
+                                    <p class="AlegreyaSansScMedium">explore
+                                        <i class="fa fa-angle-right text-white"></i>
+                                    </p>
+                                </div>
+                                <p class="gillsans-regular"  >F&F Soma Bay</p>
+                            </div>
+                        </a>
+    
                     </div>
-                    <a class="gillsans-regular" href="" >Event Name</a>
-                </div>
-                <div class="explore_projects" style="margin: 0 10px;">
-                    <div class="img-sss pos-relative" style="margin-bottom: 20px;width: 300px;height: 150px;background-image: url(images/portifo/CIFF_After_Party_Gala_2019/Image\ 3.jpg);;">
-                        <p class="AlegreyaSansScMedium">explore
-                            <i class="fa fa-angle-right text-white"></i>
-                        </p>
+                    <!-- new2 -->
+                    <div class="item">
+    
+    
+                        <a href="ZO_Breast_Cancer_Awareness.html">
+                            <div class="explore_projects" style="margin: 0 10px;">
+                                <div class="img-sss pos-relative" style="margin:0 auto 20px;width: 80%;height: 200px;;background-image: url(images/portifo/ZO_Breast/Header.jpg);background-size: cover;background-position: center;">
+                                    <p class="AlegreyaSansScMedium">explore
+                                        <i class="fa fa-angle-right text-white"></i>
+                                    </p>
+                                </div>
+                                <p class="gillsans-regular" >ZO Breast Cancer Awareness</p>
+                            </div>
+                        </a>
+    
                     </div>
-                    <a class="gillsans-regular" href="" >Event Name</a>
+                    
+    
                 </div>
-                <div class="explore_projects" style="margin: 0 10px;">
-                    <div class="img-sss" style="width: 300px;height: 150px;background-image: url(images/portifo/CIFF_After_Party_Gala_2019/Image\ 4.jpg);;"></div>
-                </div>
-               </div>
             </div>
         </section>
     </div>
@@ -549,7 +569,7 @@
         function playVideo(file){
             myVideo.src = file; 
             videoPlayer.style.display = "block";
-            videoPlayer.style.zIndex="1000";
+            videoPlayer.style.zIndex="1300";
             videoPlayer.style.margin = "100px auto"
             }
             

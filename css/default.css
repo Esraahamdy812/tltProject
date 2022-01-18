@@ -1420,6 +1420,15 @@
     background:#fff;
     display:none;
   }
+  .video-player2{
+  
+    position: absolute;
+    left: 50%;
+    top: 37%;
+    transform: translate(-50%,-50%);
+    background:#fff;
+    display:none;
+  }
   video:focus{outline: none;}
   .close-btn{
     position: absolute;
@@ -3338,8 +3347,8 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   .about-portifolio-3{height: 85vh;}
   .about-portifolio-4{height:140vh}
   .p-text-about-section{width: 75%;margin: 0 auto;}
-  .video-w{width: 800px;margin: 0 auto;}
-  .ls-sec{height:60vh}
+  .video-w,.video-player2{width: 800px;margin: 0 auto;}
+  .ls-sec{height:auto;margin-bottom:3rem}
   .rem-b-5{margin-bottom: 5rem !important;}
   .img-sss{transition: .3s ease-in-out;background-size: cover;}
   .img-sss:hover{
@@ -3372,23 +3381,22 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
     .about-portifolio-4{height:165vh}
     
     .p-text-about-section{width: 80%;margin: 0 auto;}
-    .video-w{width: 1000px;}
+    .video-w,.video-player2{width: 1000px;}
   }
   @media (min-width:1700px){
     .play-btn-portifolio{width: 65px !important;}
-    .ls-sec{height:50vh}
+    /* .ls-sec{height:50vh} */
     .img-sss{width: 400px !important;height: 200px !important;}
     .p-text-about-section{width: 77%;margin: 0 auto;}
     .about-portifolio{height: 50vh;}
     .about-portifolio-2{height: 90vh;}
     .about-portifolio-3{height: 75vh;}
     .about-portifolio-4{height:115vh}
-    .video-w{width: 1400px;}
+    .video-w,.video-player2{width: 1400px;}
     .rem-5{margin-top: 10rem !important;}
     .rem-b-5{margin-bottom: 10rem !important;}
     .portf-h2-head{font-size: 61px !important;}
     .head-text-span{font-size: 35px !important;}
-    .my-1900{margin-top: 5.5rem !important;}
     .portifolio-vedio{margin-bottom: 10rem;}
     .top-video{margin-top: 10rem !important;}
   }
@@ -3410,17 +3418,17 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
     .about-portifolio{height: 40vh;}
     .about-portifolio-2{height: 55vh;}
     .about-portifolio-mob{height: 70vh;}
-    .about-portifolio-4{height:100vh}
+    .about-portifolio-4{height:80vh}
     .portifolio-vedio{min-height: 20vh;margin-bottom: 5rem;}
     .p-text-about-section{width: 90%;font-size:16px !important}
     .rem-b-5{margin-bottom: 0 !important;}
     .portfolio-carousel {height: 60vh;}
     .img-carosal-portifo{background-position:bottom ;height: 59vh ;}
     .col-frist-img{padding-right: 0;}
-    .video-w{width: 100%;}
+    .video-w,.video-player2{width: 100%;}
     .rem-remove-2{margin-top: 0 !important;}
-    .ls-sec{height: 40vh;}
-    .img-sss{width: 110px !important;height: 80px !important;}
+    .ls-sec{height: auto;}
+    .img-sss{width: 70% !important;height: 200px !important;}
     .img-sss p{
       bottom: -30px;left: 20%;font-size: 14px !important;
     }
@@ -3432,3 +3440,4 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   }
 .video-hover{width: 100%;height: 100%;position: absolute;z-index: 1000;transition: .3s ease-in-out;}
 .video-w:hover .video-hover{background: rgba(66, 64, 64, 0.671);}
+.js-img-portifolio{background-size: cover;width: 100%;background-position: bottom;}
