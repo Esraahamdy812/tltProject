@@ -5,7 +5,7 @@ let all_items = [
     {title :'CIFF After Party' , date : 'March 30, 2020',img:'../images/portifo/CIFF_2018/Header.jpg',type:'originals',href:'CIFF_2018.html'},
     {title :'CIFF Official Opening After Party' , date : 'March 30, 2020',img:'../images/portifo/CIFF_After_Party_Gala_2019/Header.jpg',type:'originals',href:'CIFF__2019.html'},
     {title :'CIFF “People of the Industry”' , date : 'March 30, 2020',img:'../images/portifo/CIFF_People_of_Industry_2019/header.jpg',type:'originals',href:'CIFF_People_of_the_Industry.html'},
-    {title :'GIFF Pepsi Afterparty' , date : 'March 30, 2020',img:'../images/portifo/pepsi/Header-min.jpg',type:'corporate',href:'CIFF_People_of_Industry_1_Pepsi.html'},
+    {title :'GIFF Pepsi After party' , date : 'March 30, 2020',img:'../images/portifo/pepsi/Header-min.jpg',type:'corporate',href:'CIFF_People_of_Industry_1_Pepsi.html'},
     {title :'Family & Friends: Almaza Bay' , date : 'March 30, 2020',img:'../images/portifo/Almaza_Bay/Header.jpg',type:'corporate',href:'F&F_Almaza_Bay_2019.html'},
     {title :'Family & Friends: Soma Bay' , date : 'March 30, 2020',img:'../images/portifo/Soma_Bay/Header.jpg',type:'corporate',href:'F&F_Soma_Bay_2019_2020.html'},
     {title :'Family & Friends: Marassi 2018' , date : 'March 30, 2020',img:'../images/portifo/F&F_Marassi/Header.jpg',type:'originals',href:'F&F_TLT_Marassi_2018.html'},

@@ -1429,6 +1429,14 @@
     background:#fff;
     display:none;
   }
+  @media (min-width:1200px) and (max-width:1600px){
+    .video-player2{
+  
+    
+      top: 30%;
+      
+    }
+  }
   video:focus{outline: none;}
   .close-btn{
     position: absolute;
@@ -3426,11 +3434,12 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
     .img-carosal-portifo{background-position:bottom ;height: 59vh ;}
     .col-frist-img{padding-right: 0;}
     .video-w,.video-player2{width: 100%;}
+    .video-player2{top: 7%;}
     .rem-remove-2{margin-top: 0 !important;}
     .ls-sec{height: auto;}
     .img-sss{width: 70% !important;height: 200px !important;}
     .img-sss p{
-      bottom: -30px;left: 20%;font-size: 14px !important;
+      bottom: -30px;left: 38%;font-size: 14px !important;
     }
     .img-sss i{font-size: 8px !important;}
     .img-sss:hover p{bottom: 0px;opacity: 1;}
