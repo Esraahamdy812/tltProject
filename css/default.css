@@ -3428,6 +3428,7 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
     .about-portifolio-mob{height: 70vh;}
     .about-portifolio-4{height:80vh}
     .portifolio-vedio{min-height: 20vh;margin-bottom: 5rem;}
+    .portifolio-vedio-mobile{margin-top: 0 !important;margin-bottom: 5rem !important;}
     .p-text-about-section{width: 90%;font-size:16px !important}
     .rem-b-5{margin-bottom: 0 !important;}
     .portfolio-carousel {height: 60vh;}
