@@ -3451,9 +3451,9 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 .video-w:hover .video-hover{background: rgba(66, 64, 64, 0.671);}
 .js-img-portifolio{background-size: cover;width: 100%;background-position: bottom;}
 /* added for last edits mobile */
-.video-edit-mobile{
+/* .video-edit-mobile{
   margin-top: 5rem;
-}
+} */
 /* @media (max-width: 767px){
   .space-mobile{
     height: 25vh;
