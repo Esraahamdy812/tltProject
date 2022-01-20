@@ -1411,13 +1411,21 @@
     .small-img-row .play-btn{width: 35px;top: 40%;left: 45%;}
   }
   .video-player{
-    width:640px !important;
+    /* width:640px !important;
     height: 360px !important;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
-    background:#fff;
+    background:#fff; */
+    width:740px !important;
+    height: 460px !important;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-75%, -49%);
+  
     display:none;
   }
   .video-player2{
@@ -1430,17 +1438,12 @@
     display:none;
   }
   @media (min-width:1200px) and (max-width:1600px){
-    .video-player2{
-  
-    
-      top: 30%;
-      
-    }
+    .video-player2{top: 30% }
   }
   video:focus{outline: none;}
   .close-btn{
     position: absolute;
-    top: 10px;
+    top: 30px;
     right: 10px;
     width: 30px;
     cursor: pointer;
