@@ -154,9 +154,23 @@
                    
                 </div>
                 <div class="col-md-6 for-center-img">
+                    <!-- <input type="search" class="circle-search" > -->
                     <img src="images/search.png" alt="search">
-                </div>
+                    <!-- <div class="circle-search pos-relative" >
+                        <input class="circle-input" type="text" placeholder="Search" style="background: transparent;border: none;outline: none;display: none;">
+                    </div> -->
 
+                </div>
+                <style>
+                    .circle-search{position:relative;width: 30px;height:30px;border: 2px solid #000;border-radius: 50%;transition: .5s ease-in;}
+                    .circle-search::after{content: "";position: absolute !important;width: 2px !important;height: 15px !important;background: #000 !important;top:85%;right:-15%;transform: rotate(-45deg);cursor: pointer;}
+                    .circle-search:hover {width: 160px;height:30px;border: 2px solid #000;border-radius: 2%;transition: .5s ease-in-out;}
+                    .circle-search:hover .circle-input{display:block !important;text-indent: 10px !important;}
+                    .circle-search:hover::after{transform: rotate(0deg);top:10%;left:5%;transition: .5s ease-in-out;height:20px; }
+                    
+                    .circle-search:focus .circle-search:hover::after{background: red !important;}
+                    /* .circle-input:focus .circle-search:hover::after{left: 50% ;} */
+                </style>
                 <div class="col-md-4">
                     <div class="f-wid">
                         <ul class="list-unstyled my-ul " id="our-ul" style="justify-content: flex-end;">

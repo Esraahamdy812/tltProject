@@ -1428,6 +1428,15 @@
   
     display:none;
   }
+  @media (min-width:1700px){
+    .video-player{
+     
+      width:900px !important;
+      height: 500px !important;
+    
+      transform: translate(-76%, -88%);
+     
+  }}
   .video-player2{
   
     position: absolute;

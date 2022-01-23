@@ -12,8 +12,8 @@ let all_items = [
     {title :'Fanadir Launch Party' , date : 'March 30, 2020',img:'../images/portifo/Fanadir/Header.jpg',type:'originals',href:'Fanadir_Launch.html'},
     {title :'New Year’s Eve 2020' , date : 'March 30, 2020',img:'../images/portifo/Galerie/Header.jpg',type:'corporate',href:'Galerie.html'},
     {title :'Garden 8 Launch Party' , date : 'March 30, 2020',img:'../images/portifo/Garden8/HEADER.jpg',type:'corporate',href:'Garden_8_Launch_Party_Winter_Garden.html'},
-    {title :'Gin meets Burger' , date : 'March 30, 2020',img:'../images/portifo/Gin_meets_Burger/Header.jpg',type:'corporate',href:'Gin_meets_Burger.html'},
-    {title :'Rituals of the Sun' , date : 'March 30, 2020',img:'../images/portifo/Rituals_sun/Header.jpg',type:'social',href:'Rituals_of_the_sun.html'},
+    // {title :'Gin meets Burger' , date : 'March 30, 2020',img:'../images/portifo/Gin_meets_Burger/Header.jpg',type:'corporate',href:'Gin_meets_Burger.html'},
+    // {title :'Rituals of the Sun' , date : 'March 30, 2020',img:'../images/portifo/Rituals_sun/Header.jpg',type:'social',href:'Rituals_of_the_sun.html'},
     {title :'Rituals Village Launch' , date : 'March 30, 2020',img:'../images/gallary/Clandestine/img3.png',type:'social',href:'Rituals_Village.html'},
     {title :'ZO Breast Cancer Awareness Party' , date : 'March 30, 2020',img:'../images/portifo/ZO_Breast/Header.jpg',type:'social',href:'ZO_Breast_Cancer_Awareness.html'}
 
