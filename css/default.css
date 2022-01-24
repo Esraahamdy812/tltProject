@@ -3522,3 +3522,12 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
    margin-bottom: 2rem;
  }
 } */
+/* added for mobile  */
+@media (max-width:767px){
+.p-height-mobile{
+  height: 30vh;
+}
+.p-height-mobile-25{
+  height: 25vh;
+}
+}
