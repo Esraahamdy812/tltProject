@@ -3438,6 +3438,7 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
     .about-portifolio{height: 40vh;}
     .about-portifolio-2{height: 55vh;}
     .about-portifolio-mob{height: 45vh;}
+    .about-portifolio-mob-2{height: 72vh;}
     .about-portifolio-4{height:80vh}
     .portifolio-vedio{min-height: 20vh;margin-bottom: 5rem;}
     .portifolio-vedio-mobile{margin-top: 0 !important;margin-bottom: 5rem !important;}
@@ -3457,7 +3458,8 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
     .img-sss i{font-size: 8px !important;}
     .img-sss:hover p{bottom: 0px;opacity: 1;}
     .portfolio-carousel .scrollDown2{top:0}
-    .img-alone{height: 70vh;margin-bottom: 5rem;margin-top: 0;}  
+    .img-alone{height: 70vh;margin-bottom: 5rem;margin-top: 0;}
+    .img-alone-2{margin-bottom: 2rem}  
     .img-alone-box{  background-position: revert !important;}
   }
 .video-hover{width: 100%;height: 100%;position: absolute;z-index: 1000;transition: .3s ease-in-out;}
