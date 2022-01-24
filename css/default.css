@@ -3525,9 +3525,9 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 /* added for mobile  */
 @media (max-width:767px){
 .p-height-mobile{
-  height: 30vh;
+  height: 33vh;
 }
 .p-height-mobile-25{
-  height: 25vh;
+  height: 28vh;
 }
 }
