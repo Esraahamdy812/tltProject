@@ -3282,7 +3282,9 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
   font-size:19px !important
   }
   .w-text-cairo-large{ font-size:17px !important}
+  .w-text-cairo-large{width: 70% !important;}
 }
+
 @media screen and (min-width:1600px) {
   .logo-stills-dimensions{
     width:120px;
