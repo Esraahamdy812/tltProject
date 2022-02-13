@@ -871,7 +871,7 @@
     padding-bottom: 30px !important;
     background: #F8F7F7;
   }
-  .new-season{width:100%;margin: 0 auto !important;}
+  .new-season{width:100%;margin: 0 auto ;}
 }
 
 /*pagination*/
@@ -1027,8 +1027,11 @@
   }
 /*sound*/
 .sound-testimonial p {
-  width: 53.5%;margin: 220px auto 20px;font-size: 20px
+  width: 53.5%;
+  margin: 220px auto 20px;
+  font-size: 20px;
 }
+
 @media (max-width:767px){
   .sound-testimonial p{font-size: 15px;width: auto;margin: 100px auto 20px;}
 }
@@ -3534,6 +3537,10 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 }
 }
 /*tablets edits in feb*/
+.text-justify-v2{
+  text-align: justify;
+  text-align-last: center;
+}
 @media screen and (min-width:768px) and (max-width:991px) {
   .scrollDown2 {top:88%;}
   .for-tablet{
@@ -3553,13 +3560,42 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   .p-65-tablet{width:65%;}
   .mt-5-tablet{margin-top: 5rem;}
   .arrow-tree-tablet{right:5%;}
-  .p-head-tablet{font-size:20px !important;}
+  .p-head-tablet{font-size:18px !important;}
  .p-w90-tablet{width:90%;}
  .w-90-tablet{width:90%;}
  .w-100-p-tablet{width:100%;}
-  
-   
-  
-  
- 
-}
+ .box-section-2{height: 60vh;}
+ .img-width-85{width:85%;}
+ .p-w-tablet{width: 85%;}
+ /* .text-justify{} */
+ .text-justify-v2{ text-align-last:left !important;text-align: justify;}
+ .img-width-75{width: 75%;}
+ .img-bo,.img-bo2{width: 100%;height: 100%;}
+ .h-80vh{height: 80vh;}
+ .h-70vh{height: 70vh;}
+ .specific-tablet-style{width: 90% !important;text-align: justify;} 
+ .h-100prc{height: 100%;}
+ /* .top-55prc{top:55%;} */
+.mrgn-t-5{margin-top: 5rem;}
+.h-hos-tablet{height:50rem;}  
+.top-18{top:18%;}
+.top-75-tablet{top:75%;}
+.top-35{top:35%;}
+.logo-tablet-hos{width:10rem;}
+.width-6{width: 6rem;}
+.top-149{top:70%;}
+.mt-22{margin-top: 22rem;}
+.h-168{height: 168% !important;}
+.mt-neg5{margin-top: -5rem;}
+.mt-neg4{margin-top: -4rem;}
+.w-75-tab{width:75%;}
+.mt-6rem{margin-top: 6rem;}
+ .h-header{height:21rem}
+ .width-top{top:25%;width: 85%;}
+ .h-150{height: 130vh;}
+ .font-22-size{font-size: 22px !important;}
+ .sound-testimonial p {width: 90%;}
+ .padding-less{padding:30px;}
+ .h-100vh{height: 100vh !important;}
+ }
+
