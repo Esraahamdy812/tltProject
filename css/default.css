@@ -3541,6 +3541,15 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   text-align: justify;
   text-align-last: center;
 }
+.dad-concepts{margin:30px 0 50px}
+.box-concpets{width: 51%;}
+@media (max-width:767px){
+    .dad-concepts{margin:0px 0 50px}
+    .box-concpets{width: 90%;}
+}
+@media (min-width:1600px){
+    .dad-concepts{min-height:40vh}
+}
 @media screen and (min-width:768px) and (max-width:991px) {
   .scrollDown2 {top:88%;}
   .for-tablet{
@@ -3561,7 +3570,7 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   .mt-5-tablet{margin-top: 5rem;}
   .arrow-tree-tablet{right:5%;}
   .p-head-tablet{font-size:18px !important;}
- .p-w90-tablet{width:90%;}
+ .p-w90-tablet{width:90% !important;}
  .w-90-tablet{width:90%;}
  .w-100-p-tablet{width:100%;}
  .box-section-2{height: 60vh;}
@@ -3585,7 +3594,7 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 .width-6{width: 6rem;}
 .top-149{top:70%;}
 .mt-22{margin-top: 22rem;}
-.h-168{height: 168% !important;}
+.h-168{height: 149% !important;}
 .mt-neg5{margin-top: -5rem;}
 .mt-neg4{margin-top: -4rem;}
 .w-75-tab{width:75%;}
@@ -3597,5 +3606,40 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
  .sound-testimonial p {width: 90%;}
  .padding-less{padding:30px;}
  .h-100vh{height: 100vh !important;}
- }
+ .content-box p,.txt-last-left{text-align-last: left !important;}
+ .top-38{top: 38%;}
+ .mt-ng8{margin-top: -8rem;}
+ .mt-tablet-4{margin-top: 4rem;}
+ .t-55{top: 55%;}
+ .t-52{top:52%;}
+ .mt-tablet-3{margin-top: 3rem;}
+ .mt-tablet-0{margin-top: 0em;}
+ .h-377{height:377px;}
+ .h-334{height:334px;}
+ .ml-1-tablet{margin-left: 1rem;}
+ .t-45-tablet{top: 45%;}
+ .for-circle::after {  top: 50.3% !important;left: 7.7% !important; }
+ #our-ul{flex-direction: row;}
+ .txt-justify{text-align: justify !important;text-align-last: center;}
+ .h-20{height: 20rem !important;width: 63% !important;}
+ .fs-16-tablet{font-size: 18px !important;}
+ .fs-32{font-size: 32px !important;}
+ .fs-22{font-size: 22px !important;}
+ .top-28{top:28%;}
+ .prl-10prc{padding-right: 10%;padding-left: 10%;}
+ .hac-sec-p{text-align-last: left !important;}
+ .bg-cvr{background-size: cover;background-position-x: right;height: 28.3rem !important;}
+ .bistro_img_4 {margin-top: -3rem;}
+ .txt-align-left{text-align-last: left !important;}
+ .rituhos_img_2  {background-size: cover;background-position-x: right;}
+ .rituhos_img_4 {background-position-x: left;}
+ .clubClan_img_3 {
+  background-size: cover;background-position-x: center;}
+  .for-circle{display: none;}
+  .outline-dark{border: #000 2px solid;height: 35px;margin-top: 0.5rem;}
+
+}
+
+
+ 
 
