@@ -3537,6 +3537,7 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 }
 }
 /*tablets edits in feb*/
+.mySearch{display:none}
 .text-justify-v2{
   text-align: justify;
   text-align-last: center;
@@ -3637,9 +3638,65 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   background-size: cover;background-position-x: center;}
   .for-circle{display: none;}
   .outline-dark{border: #000 2px solid;height: 35px;margin-top: 0.5rem;}
+  .mySearch{display:block}
 
 }
 
-
- 
-
+@media screen and (min-width:992px) and (max-width:1199px) {
+  .h-hos-tablet{margin-top: 8rem;}
+  .p-w90-tablet{width:90% !important}
+  .mt-3-med{margin-top: 3rem;}
+  .img-width-40{width: 40%;}
+  .top-75-tablet{top:60%}
+  .h-168 {height:40rem !important}
+  .mt-12-med{margin-top: 12rem;}
+  .mt-5-med{margin-top: 5rem;}
+  .w-100-p-tablet{width: 100%;}
+  .hac-sec-p{text-align-last: left !important;}
+  .w-90-tablet{width:90%;}
+  .img-width-85{width:85%}
+  .ml-med{margin-left: 2rem;}
+  .view-img {min-height: 282px;}
+  .h-100vh{height: 100vh;}
+  .h-80vh-med{height: 80vh;}
+  .mySearch{display:block}
+  .for-circle{display: none;}
+  .top-28{top: 28%;}
+  .career-celebrate .celebrate {width:90%;}
+  .content-4{display: none;}
+   main{overflow-x: hidden;}
+   .explore-img-75{max-width: 75%;}
+   .news-row-med{justify-content: space-evenly;}
+}
+/* to hide tablet footer in other media */
+@media(min-width:992px){  .content-4{display: none;}}
+@media (max-width:767px) {.content-4{display: none;}}
+  /* to handle fooetr issue in differenet media */
+@media screen and ( min-width: 300px ) and ( max-height: 915px )
+{
+  .content-3{min-height: 53rem;}
+}
+@media screen and ( min-width: 300px ) and ( max-height: 850px )
+{
+  .content-3{min-height: 50rem;}
+}
+@media screen and ( min-width: 300px ) and ( max-height:740px )
+{
+  .content-3{min-height: 42rem;}
+}
+/* it is a special for ipad air media , parts of pages was not appearing */
+@media (width:820px) and (height:1180px){
+  body{min-height: 291rem;}
+}
+/* for ipad mini */
+@media (width:768px) and (height:1024px){
+  body{min-height: 276rem;}
+}
+/* for surface pro 7*/
+@media (width:912px) and (height:1368px){
+  body{min-height: 313rem;}
+}
+/* for ipad pro */
+@media (width:1024px) and (height:1366px){
+  body{min-height: 304rem;}
+}
