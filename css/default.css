@@ -3702,3 +3702,4 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 @media (width:1024px) and (height:1366px){
   body{min-height: 304rem;}
 }
+.txt-justify{text-align: justify !important;text-align-last: center;}
