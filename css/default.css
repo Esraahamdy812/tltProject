@@ -3528,6 +3528,8 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
  }
 } */
 /* added for mobile  */
+
+
 @media (max-width:767px){
 .p-height-mobile{
   height: 33vh;
@@ -3537,11 +3539,14 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 }
 }
 /*tablets edits in feb*/
+
+
 .mySearch{display:none}
 .text-justify-v2{
   text-align: justify;
   text-align-last: center;
 }
+
 .dad-concepts{margin:30px 0 50px}
 .box-concpets{width: 51%;}
 @media (max-width:767px){
@@ -3703,3 +3708,8 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
   body{min-height: 304rem;}
 }
 .txt-justify{text-align: justify !important;text-align-last: center;}
+@media(min-width:992px){
+  .hac-sec-p{text-align-last: left !important;}
+.txt-last-left{text-align-last: left !important;}
+.txt-align-just{text-align:justify;}
+}
