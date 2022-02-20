@@ -3553,6 +3553,7 @@ background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;backg
 .dad-concepts{margin:30px 0 50px}
 .box-concpets{width: 51%;}
 @media (max-width:767px){
+  .container-logos .new-capanas-logo img{width:90px !important;}
     .dad-concepts{margin:0px 0 50px}
     .box-concpets{width: 90%;}
     .news-desc h3{text-align: center;}
