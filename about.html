@@ -22,23 +22,23 @@
 <body>
     <!--============== Header Section Start ==============-->
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-3 navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
-            <a class="navbar-brand ml-10" href="index.html"><img src="images/TLT concepts-02.png" class="main-logo"
+            <a class="navbar-brand ml-10" href="index.html"><img src="images/TLT concepts-01.png" class="main-logo"
                     alt="Image not found !"></a>
-            <div class="icon2 d-xl-none d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            <div class="icon d-xl-none d-lg-none" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <div class="hamb2">
+                <div class="hamb ">
                 </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav ml-auto">
+                <ul class="navbar-nav navbar-nav-2 ml-auto">
                     <li class="nav-item active">
                         <a class="nav-link dropdown-toggle hvr-underline-reveal" href="about.html">
                             about
                         </a>
                     </li>
-
+    
                     <li class="nav-item dropdown d-menu">
                         <a class="nav-link dropdown-toggle hvr-underline-reveal " href="">
                             concepts
@@ -51,7 +51,7 @@
                             <a class="dropdown-item" href="Lifestyle.html">tlt lifestyle</a>
                         </div>
                     </li>
-
+    
                     <li class="nav-item dropdown d-hidden-li">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -66,7 +66,7 @@
                     </li>
                     <li class="nav-item dropdown d-menu">
                         <a class="nav-link dropdown-toggle hvr-underline-reveal" href="">
-                            services
+                             services
                         </a>
                         <div class="dropdown-menu d-links d-links-2">
                             <a class="dropdown-item d-none d-lg-block dotlink" href="">.</a>
@@ -84,9 +84,9 @@
                             <a class="dropdown-item" href="Event-Portfolio.html">portfolio</a>
                         </div>
                     </li>
-
+    
                     </li>
-
+    
                     <li class="nav-item">
                         <a class="nav-link dropdown-toggle hvr-underline-reveal" href="News.html">
                             news
@@ -134,15 +134,31 @@
 
             </div>
             <a href="#sec2">
-                <div class="scrollDown2"></div>
+                <div class="scrollDown2 scrollDown3" style="color: #212121 !important;"></div>
             </a>
         </div>
         <div class="box-text-about">
-            <h2 class=" c-w head-h2 BigCaslon-35">“Amidst the <span class="Caslon-MediumItalic-35 text-white">nature
-                </span>&amp; the <span class="Caslon-MediumItalic-35 text-white">beauty </span> of the world, <br> a
+            <h2 class=" c-w head-h2 BigCaslon-35" style="color: #212121 !important;">“Amidst the <span style="color: #212121 !important;" class="Caslon-MediumItalic-35 text-white">nature
+                </span>&amp; the <span style="color: #212121 !important;" class="Caslon-MediumItalic-35 text-white">beauty </span> of the world, <br> a
                 magic seed was planted.”</h2>
-            <button onclick="togglepopup2()" class="hero-btn   AlegreyaSansSc24 btn-popup">discover the journey</button>
-            <button onclick="togglepopup()" class="hero-btn AlegreyaSansSc24 btn-popup2">discover the journey</button>
+            <button onclick="togglepopup2()" style="color: #212121 !important;border:2px solid #212121;" class="hero-btn   AlegreyaSansSc24 btn-popup">discover the journey</button>
+
+            <button onclick="togglepopup()" style="color: #212121 !important;border:2px solid #212121;" class="hero-btn AlegreyaSansSc24 btn-popup2">discover the journey</button>
+            <style>
+                .hero-btn::after {
+                content: '';
+                position: absolute;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                box-shadow: inset 0 0 0 0 #212121;
+                transition: box-shadow .3s ease;
+                }
+                .hero-btn:hover::after {
+                box-shadow: inset 0 0 0 3px #212121;
+                }
+            </style>
         </div>
 
     </header>
