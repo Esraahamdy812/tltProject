@@ -1339,6 +1339,7 @@
     left:49.1%;
     bottom:320px;
    }
+   .timeline ul li .content-1 p{width: 90% !important;}
    @media(max-width:767px){
     .time-line h3::after,
     .timeline .container::before,
@@ -1363,6 +1364,8 @@
       font-size: 12px;text-align: left !important;
       width: 100% !important;
     }
+  
+
     .timeline ul{
       height:200vh !important
     }
