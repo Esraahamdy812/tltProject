@@ -2058,7 +2058,7 @@ text-align: center;width: 100%;
 .p-font{width:50%;margin: 8vh auto;text-align: center;height: 100%;}
 .div-hei-50{height: 50vh;background: #F0EFEE;}
 @media (max-width:767px){
-  .hos-text-sm{height:120vh !important}
+  .hos-text-sm{height:130vh !important}
   /* .div-hei-50{min-height: 50vh;} */
   .p-font{width:100%;margin: 5vh auto;}
   .box-section{height: 150vh !important;width: 90%;margin: 80px auto 20px}
