@@ -75,21 +75,7 @@ function DisplayList (items ,wrapper,rows_per_page,page){
         </div>
     </div>
        `;
-//        <div class="col-lg-3 col-md-6" style="padding:0">
-                           
-//        <div class="card" style="width: 100%;">
-//            <div class="card-body">
-//                <h5 class="card-title AlegreyaSans-Bold">${item.title}</h5>
-//                <h6 class="card-subtitle mb-2 AlegreyaSansLight text-muted">${item.date}</h6>
-//                <div style="background-color: #000;z-index: 100;">
-//                 <a href=${item.href}> <img src=${item.img}  class="card-img-top card-img-top2" alt="..."></a>
 
-//                </div>
-
-//            </div>
-//        </div>
-//    </div>
-        // wrapper.appendChild(htmlOutput);
     }
     $( '#list' ).html( htmlOutput );
 }
