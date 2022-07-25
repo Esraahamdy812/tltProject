@@ -3339,6 +3339,16 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
   margin: auto;
   
   }
+  .rituals-branch2{
+    background-image:url('../images/Logos-larg/PNG/Rituals\ of\ Zoya\ \(black\).png');
+    background-repeat:  no-repeat ;
+    background-size: contain;
+    background-position: center;
+    height: 5rem;
+    width: 75%;
+    margin: auto;
+    
+    }
   @media(max-width:767px){
     #exampleModal1 .modal-content,#exampleModal2 .modal-content{
      
@@ -3347,7 +3357,7 @@ background:url('../images/Logos-larg/PNG/Hospitality/Le\ Sidi\ \(1\).png') no-re
     }
     #exampleModal1 .modal-dialog,#exampleModal2 .modal-dialog{margin-top:50px}
    
-    .rituals-branch1{width: 60%;}
+    .rituals-branch1,.rituals-branch2{width: 60%;}
    
   }
 
